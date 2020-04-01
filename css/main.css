@@ -1,0 +1,21 @@
+
+
+.col li {
+    list-style-type: none;
+    border: none;
+}
+
+.col li a {
+    text-decoration-line: none;
+}
+
+.col .navbar-nav  .nav-item {
+    padding: 0 15px;
+}
+
+.form-inline {
+    width: 100px;
+}
+.form-inline .form-control.mr-sm-2{
+    width: 100px;
+}
