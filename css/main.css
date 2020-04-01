@@ -5,6 +5,10 @@
 .sales-b .container {
     padding: 0;
 }
+.icon_shopping{
+    left: 5px;
+    top: 5px;
+}
 .col li {
     list-style-type: none;
     border: none;
