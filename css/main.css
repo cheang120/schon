@@ -2,9 +2,12 @@
 #header-top .container, 
 #header .container, 
 .sales-a .container,
-.sales-b .container {
+.sales-b .container,
+.features .container,
+section .container {
     padding: 0;
 }
+
 .icon_shopping{
     left: 5px;
     top: 5px;
