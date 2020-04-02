@@ -31,4 +31,6 @@ section .container {
 .form-inline .form-control.mr-sm-2{
     width: 100px;
 }
-
+.brands  li{
+    list-style-type: none;
+}
