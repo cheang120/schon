@@ -2,33 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>schon</title>
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="fontawesome-free-5.13-2.0-web/css/all.css" rel="stylesheet">
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     
 </head>
-<body>
+<body id="mystyle">
     <!-- header start -->
     <div id="header-top">
         <div class="container">
-            <div class="row d-flex justify-content-between">
-              <ul class="list-group list-group-horizontal-sm float-left">
+            <div class="row" id="mystyle">
+              <div class="col-sm-6">
+                <ul class="list-group list-group-horizontal-sm d-flex flex-row" >
                   <li class="list-group-item">
-                      <i>i</i>
+                      <i class="fas fa-phone-alt"></i>
                       <a href="tel:+1 (555) 333 22 11">+1 (555) 333 22 11</a>
                   </li>
                   <li class="list-group-item">
-                      <i>i</i>
+                      <i class="far fa-envelope"></i>
                       <a href="mailto:info@schon.chairs">info@schon.chairs</a>
                   </li>
               </ul>
+              </div>
               
-              <ul class="list-group list-group-horizontal-sm float-right">
+              <div class="col-sm-6>
+                <ul class="list-group list-group-horizontal-sm d-flex flex-row-reverse" ></div>
                   <li class="list-group-item">
                       <a href="#">Order Track</a>
                   </li>
@@ -38,35 +42,36 @@
                   <li class="list-group-item">
                       <a href="#">Checkout</a>
                   </li>
-              </ul> 
+                </ul> 
+              </div>
             </div>
+              
+              
+            
         </div>
     </div>
-    
-
     
     <div id="header">
         <div class="container">
             <div class="row">
-                <div class="col pull-left">
+                <div class="col-sm-2">
                     <div id="logo">
                         <a href="#">
                             <img src="https://placeimg.com/113/30/any" alt="">
                         </a>
                     </div>
                 </div>
-                <div class="col pull-left">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="col-sm-8">
+                    <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                           <ul class="navbar-nav mr-auto pull-left">
                             <li class="nav-item">
                               <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle pull-left" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     PRODUCTS 
                                 </a>
-                                <i>i</i>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                   <a class="dropdown-item" href="#">Action</a>
                                   <a class="dropdown-item" href="#">Another action</a>
@@ -78,7 +83,6 @@
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     PAGES
                               </a>
-                              <i>i</i>
                               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Action</a>
                                 <a class="dropdown-item" href="#">Another action</a>
@@ -96,14 +100,14 @@
                                 <a class="nav-link" href="#">CONTACT</a>
                               </li>
                           </ul>
-                          <form class="form-inline my-2 my-lg-0 pull-right">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          <form class=" fas fa-search form-inline my-2 my-lg-0 pull-right">
+                            
                           </form>
                         </div>
                       </nav>
 
                 </div>
-                <div class="d-flex justify-content-end">
+                <div class="col-sm-2">
                     <i class="position-absolute icon_shopping">i</i>
                     <ul class="list-group pull-right">
                         <li class="list-group-item">SHOPPING CART</li>
