@@ -22,7 +22,7 @@
           <div class="row" id="mystyle">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <ul class="list-group list-group-horizontal-sm d-flex flex-row" >
-                <li class="list-group-item">
+                <li class="list-group-item bg-gray">
                     <i class="fas fa-phone-alt"></i>
                     <a href="tel:+1 (555) 333 22 11">+1 (555) 333 22 11</a>
                 </li>
@@ -34,14 +34,14 @@
             </div>
             
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-              <ul class="list-group list-group-horizontal-sm d-flex flex-row-reverse" >
-                <li class="list-group-item">
+              <ul class="list-group list-group-horizontal-sm d-flex flex-row justify-content-end" >
+                <li class="list-group-item ">
                     <a href="#">Order Track</a>
                 </li>
                 <li class="list-group-item">
                     <a href="#">My Account</a>
                 </li>
-                <li class="list-group-item">
+                <li class="list-group-item bg-gray ">
                     <a href="#">Checkout</a>
                 </li>
               </ul> 
@@ -51,69 +51,73 @@
   </div>
   
   <div id="header">
-      <div class="container">
+      <div class="container-sm container-md container-lg container-xl">
           <div class="row">
-              <div class="col-sm-2">
+              <div class="col-sm-2 ">
                   <div id="logo">
                       <a href="#">
-                          <img src="https://placeimg.com/113/30/any" alt="">
+                          <img src="images/logo.png" class="logo" alt="">
                       </a>
                   </div>
               </div>
-              <div class="col-sm-8">
+              <div class="col-sm-7">
                   <nav class="navbar navbar-expand-lg navbar-light">
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto pull-left">
+                        <ul class="nav nav-tabs">
                           <li class="nav-item">
-                            <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">home</a>
                           </li>
                           <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle pull-left" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  PRODUCTS 
-                              </a>
-                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                              </div>
-                            </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  PAGES
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">product</a>
+                            <div class="dropdown-menu">
                               <a class="dropdown-item" href="#">Action</a>
                               <a class="dropdown-item" href="#">Another action</a>
-                              <div class="dropdown-divider"></div>
                               <a class="dropdown-item" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">pages</a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Action</a>
+                              <a class="dropdown-item" href="#">Another action</a>
+                              <a class="dropdown-item" href="#">Something else here</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Separated link</a>
                             </div>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
+                            <a class="nav-link" href="#">about</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">BLOG</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">CONTACT</a>
-                            </li>
-                        </ul>
-                        <form class=" fas fa-search form-inline my-2 my-lg-0 pull-right">
+                            <a class="nav-link" href="#">blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                          </li>
+                          <li class="nav-item ">
+                            <i class=" fas fa-search">     
+                            </i>
+                          </li>
                           
-                        </form>
+                        </ul>
+                        
                       </div>
                     </nav>
 
               </div>
-              <div class="col-sm-2 d-flex">
-                  <i class="position-absolute icon_shopping">i</i>
-                  <ul class="list-group pull-right">
-                      <li class="list-group-item">SHOPPING CART</li>
-                      <li class="list-group-item">3 items</li>
-                      <li class="list-group-item">$74.00</li>
+              <div class="col-sm-3">
+                  <i class="fas fa-shopping-bag position-absolute icon_shopping"></i>
+                  <ul class="list-group shopping-cart ">
+                      <li class="list-group-item">SHOPPING CART
+                      </li>
                   </ul>
-              </div>
+                  <div class="d-print-inline-block price-item">
+                    <div class="d-inline item">3 items</div>
+                    <div class="d-inline price">$74.00</div>
+                  </div>
+              </div> 
           </div>
       </div>
       
@@ -440,14 +444,14 @@
         
       </div>
       <div class="row">
-        <ul class="list-group list-group-horizontal-sm">
+        <!-- <ul class="list-group list-group-horizontal-sm">
           <li class="list-group-item"><a href="#"><img src="images/devon.png" alt=""></a></li>
           <li class="list-group-item"><a href="#"><img src="images/gan.png" alt=""></a></li>
           <li class="list-group-item"><a href="#"><img src="images/artek.png" alt=""></a></li>
           <li class="list-group-item"><a href="#"><img src="images/ton.png" alt=""></a></li>
           <li class="list-group-item"><a href="#"><img src="images/dura.png" alt=""></a></li>
           <li class="list-group-item"><a href="#"><img src="images/zan.png" alt=""></a></li>
-        </ul>
+        </ul> -->
       </div>
     </div>
 
@@ -566,7 +570,7 @@
       </div>
     </div>
 
-  </div>
+  </div> 
 
   <div id="copyright">
     <div class="container">
