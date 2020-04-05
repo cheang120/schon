@@ -4,8 +4,8 @@
     background-color: #282828;
 }
 
-#header-top #mystyle .col-sm-6 .list-group-horizontal-sm .list-group-item:first-child {
-    padding: 7px 15px;
+#header-top #mystyle .col-sm-12 .list-group-horizontal-sm .list-group-item:first-child {
+    padding: 12px 20px;
     line-height: 2;
     background-color: #3F3E43;
     border-radius: 0;
@@ -13,8 +13,8 @@
 }
 
 
-#mystyle .col-sm-6 .list-group-horizontal-sm .list-group-item.list-group-item {
-    padding: 7px 15px;
+#mystyle .col-sm-12 .list-group-horizontal-sm .list-group-item.list-group-item {
+    padding: 12px 20px;
     line-height: 2;
     background-color: #282828;
     border-radius: 0;
