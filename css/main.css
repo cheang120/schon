@@ -1,16 +1,30 @@
 
-#mystyle #header-top {
+
+#header-top {
     background-color: #282828;
 }
 
 #header-top #mystyle .col-sm-6 .list-group-horizontal-sm .list-group-item:first-child {
+    padding: 7px 15px;
+    line-height: 2;
     background-color: #3F3E43;
     border-radius: 0;
+    font-size: 2px;
 }
 
+
 #mystyle .col-sm-6 .list-group-horizontal-sm .list-group-item.list-group-item {
+    padding: 7px 15px;
+    line-height: 2;
     background-color: #282828;
     border-radius: 0;
+    font-size: 2px;
+}
+.container-md, .container-sm {
+    padding: 0;
+}
+#header .list-group-item {
+    padding: 0;
 }
 
 body .list-group-item a {
@@ -21,9 +35,15 @@ body .list-group-item a {
     color: #a1a1a1;
 }
 
-#mystyle > .container {
+.far.fa-envelope {
+    color: #a1a1a1;
+}
+
+#header-top #mystyle .container {
+    
     padding: 0;
 }
+
 body #header-top .container .row div .col-sm-6 {
     padding: 0;
 }
@@ -68,31 +88,26 @@ body .list-group-item a {
 
 
 
-
-
-
-@media (min-width: 576px) {
-    .container{
-        max-width: 540px;
-    }
-
-}
-
-@media (min-width: 768px) {
+@media (min-width: 576px) { 
     
-
-  
 }
 
-@media (min-width: 992px) {
-   
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    
+ }
 
-  
-}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    
+ }
 
-@media (min-width: 1200px) {
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
+ }
 
 
-  
-}
+
+
 
