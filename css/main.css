@@ -1,7 +1,11 @@
 
-.row {
-    margin-left: 0;
-    margin-right: 0;
+.btn {
+    border-radius: 0;
+    width: 92px;
+    height: 24px;
+    padding: 5px;
+    font-size: 10px;
+    line-height: 1;
 }
 /* header-top start */
 
@@ -236,9 +240,16 @@ body .list-group-item a {
 }
 
 /* sales-a  */
-.sales-a .card.text-white {
+.sales-a .card.text-white-a, 
+.sales-a .card.text-white-b,
+.sales-a .card.text-white-c,
+.sales-a .card.text-white-d {
     border: 0;
     border-radius: 0rem;
+    color: rgb(255,255,255);
+}
+.sales-a .card.text-white-b {
+    padding: 1px;
 }
 .sales-a {
     margin-bottom: 30px;
@@ -359,7 +370,52 @@ body .list-group-item a {
 
 .fa-chevron-right {
     padding-left: 10px;
-    padding-top: 5px;
+    padding-top: 0px;
     width: 10px;
     height: 10px;
+}
+
+.sales-a .card.text-white-c {
+    margin-bottom: 45px;
+}
+
+.card.text-white-c h4,
+.card.text-white-d h4 {
+    font-weight: 300;
+    line-height: 1.5;
+    color: #939393;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.card.text-white-d h4{
+    margin-bottom: 13%;
+}
+.card.text-white-c i,
+.card.text-white-d i{
+    font-size: 0.5rem;
+    color: rgb(200,167,96);
+    
+}
+.card.text-white-c i{
+    margin-bottom: 20%;
+}
+.card.text-white-c i:last-child,
+.card.text-white-d i:last-child{
+    font-size: 12px;
+    color: white;
+}
+
+.card.text-white-c p,
+.card.text-white-d p{
+    color: #939393;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.text-white-d .card-text.one{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.text-white-d .card-text.three{
+    font-size: 14px;
+    margin-bottom: 0;
 }
