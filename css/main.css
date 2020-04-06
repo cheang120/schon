@@ -129,6 +129,10 @@ body .list-group-item a {
 
 
  /* header start  */
+ .container-sm, .container-md, .container-lg, .container-xl {
+     margin: 15px auto;
+ }
+
  #header .col-sm-2 #logo {
     padding-left: 0%;
     line-height: 4;
@@ -198,7 +202,8 @@ body .list-group-item a {
 
 .icon_shopping {
     left: 23%;
-    line-height: 3.3;
+    line-height: 2;
+    font-size: 2rem;
 }
 
 .list-group {
@@ -226,3 +231,135 @@ body .list-group-item a {
     padding: 0;
 }
 
+.list-group.shopping-cart {
+    margin-top: 10px;
+}
+
+/* sales-a  */
+.sales-a .card.text-white {
+    border: 0;
+    border-radius: 0rem;
+}
+.sales-a {
+    margin-bottom: 30px;
+}
+
+.sales-a .card-img-overlay.newCollection {
+    padding: 0;
+    padding-left: 70px;
+    padding-top: 240px;
+}
+
+.newCollection .card-title {
+    width: 287px;
+    height: 29px;
+    background-color: #535353;
+    margin: 0;
+    padding: 5px 10px 17px;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+
+.newCollection .new {
+    padding-left: 10px;
+    padding-top: 5px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: rgb(255,255,255);
+}
+.newCollection .collection {
+    padding-left: 10px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: rgb(255,255,255);
+}
+
+.newCollection .card-text-1 {
+    
+    width: 300px;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 5px;
+    
+}
+.newCollection .card-text-2 {
+    width: 350px;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 0px;
+    font-size: 5px;
+    
+}
+.newCollection .price {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100px;
+    font-weight: 700;
+}
+
+.card-img-overlay.sales .card-title{
+    width: 200px;
+    height: 10px;
+    margin: 0;
+    padding: 5px 10px 17px;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+    
+}
+.sales h3 {
+    width: 200;
+    margin: 0;
+    padding: 5px 10px 17px;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.sales .discount {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    text-align: center;
+    line-height: 1;
+    background-color: rgb(97,197,211);
+    border-radius: 50%;
+    bottom: 25%;
+    position: absolute;
+    right: 20px;
+}
+.sales .discount p {
+    margin: 0;
+    padding: 0;
+}
+.sales .discount p:first-child{
+    padding-top: 30%;
+    font-size: x-small;
+}
+.sales .discount p:last-child{
+    font-size: 20px;
+}
+.sales .shop-now {
+    position: absolute;
+    bottom: 5%;
+}
+.shop-now .btn{
+    padding: 0;
+    color: rgb(255,255,255);
+    text-decoration: none;
+    padding-left: 10px;
+}
+.shop-now .btn a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.fa-chevron-right {
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 10px;
+    height: 10px;
+}
