@@ -1,4 +1,8 @@
 
+.card {
+    border: 0;
+    border-radius: 0;
+}
 .btn {
     border-radius: 0;
     width: 92px;
@@ -6,6 +10,14 @@
     padding: 5px;
     font-size: 10px;
     line-height: 1;
+}
+
+.circle-gr {
+    color: rgb(210,210,210);
+}
+
+.circle-dg{
+    color: rgb(174,174,174);
 }
 /* header-top start */
 
@@ -31,12 +43,12 @@
     font-size: 2px;
     letter-spacing: 1px;
 }
-.container{
+/* .container{
     padding: 0;
-}
-.col-sm12, .col-md-6, .col-lg-6, .col-xl-6 {
+} */
+/* .col-sm12, .col-md-6, .col-lg-6, .col-xl-6 {
     padding: 0;
-}
+} */
 #header-top .col-sm-12 ul:first-child {
     padding-left: 20%;
 }
@@ -153,11 +165,11 @@ body .list-group-item a {
 
 
 
- .col-sm-2, .col-sm-7, .col-sm-12, .col-md-3, .col-lg-2, .col-xl-2,
+ /* .col-sm-2, .col-sm-7, .col-sm-12, .col-md-3, .col-lg-2, .col-xl-2,
  .col-sm-8, .col-md-2,.col-md-10,.col-md-12, .col-lg-8, .col-xl-8{
      padding: 0;
 
- }
+ } */
  .col-sm-12 {
      margin: 0 auto;
  }
@@ -399,8 +411,8 @@ body .list-group-item a {
 .card.text-white-c i{
     margin-bottom: 20%;
 }
-.card.text-white-c i:last-child,
-.card.text-white-d i:last-child{
+.card.text-white-c .fas.fa-star.white,
+.card.text-white-d .fas.fa-star.white{
     font-size: 12px;
     color: white;
 }
@@ -415,7 +427,99 @@ body .list-group-item a {
     font-size: 12px;
     margin-bottom: 0;
 }
+.text-white-d .card-text.two{
+    color: rgb(44,62,101);
+}
 .text-white-d .card-text.three{
     font-size: 14px;
     margin-bottom: 0;
 }
+.col-sm-3 .text-white-d .hurry-up{
+    bottom: 10px;
+    left: 34%;
+    color: #939393;
+}
+
+/* sales-b  */
+
+.sales-b .col-sm-4 .card:first-child {
+    margin-bottom: 82px;
+}
+.chairs {
+    text-align-last: end;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.sales-b .card:first-child h3{
+    text-align: right;
+    font-weight: 300;
+}
+
+.sales-b .shop-now-white{
+    right: 8%;
+    bottom: 9%;
+}
+.shop-now-white .btn a, 
+.shop-now-white .btn a:-webkit-any-link{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.sales-b .shop-now-black{
+    right: 8%;
+    bottom: 9%;
+}
+
+.sales-b .card:last-child h4{
+    color: rgb(193,193,193);
+    font-size: 17px;
+    letter-spacing: 4px;
+    text-align: right;
+}
+.sales-b .card:last-child a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.sales-b .card:last-child h3 {
+    text-align: right;
+    color: rgb(83,83,83);
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.sales-b .col-sm-8 .card-img-overlay {
+    padding: 2.25rem;
+}
+
+.sales-b .col-sm-8 .card h7 {
+    color: rgb(115,115,115);
+    font-size: 0.2rem;
+    letter-spacing: 4px;
+}
+
+.sales-b .col-sm-8 h1 {
+    color: rgb(83,83,83);
+    font-weight: 400;
+    letter-spacing: 2px;
+    width: 70%;
+}
+.sales-b .col-sm-8 p {
+    margin-bottom: 0;
+    color: rgb(135,135,135);
+    letter-spacing: 1px;
+    font-size: 0.2rem;
+}
+
+.sales-b .col-sm-8 .circle {
+    bottom: 5%;
+    font-size: 75%;
+}
+
+
+
+
+
+
