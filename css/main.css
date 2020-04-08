@@ -518,6 +518,39 @@ body .list-group-item a {
     font-size: 75%;
 }
 
+/* breadcrumb */
+
+#breadcrumb .breadcrumb {
+    margin-bottom: 0;
+    background-color: white; 
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 2;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "|";
+    padding: 0 15px;
+}
+
+#breadcrumb .breadcrumb a {
+    text-decoration: none;
+    
+}
+
+#breadcrumb .breadcrumb a {
+    font-size: 13px;
+}
+
+#breadcrumb .breadcrumb .dark a{
+    color: rgb(58,58,58);
+}
+
+#breadcrumb .breadcrumb .dg a {
+    color: rgb(131,129,130);
+}
+
 
 
 
