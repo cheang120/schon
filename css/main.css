@@ -19,6 +19,9 @@
 .circle-dg{
     color: rgb(174,174,174);
 }
+.mb-0 {
+    margin-bottom: 0;
+}
 /* header-top start */
 
 #header-top {
@@ -549,6 +552,96 @@ body .list-group-item a {
 
 #breadcrumb .breadcrumb .dg a {
     color: rgb(131,129,130);
+}
+
+#breadcrumb .col-sm-2 .btn {
+    width: 25px;
+    height: 25px;
+}
+
+#breadcrumb .container .col-sm-2{
+    line-height: 3.5;
+}
+
+#breadcrump .col-sm-2 
+.btn-group>.btn-group:not(:last-child)>.btn, 
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: rgb(237,237,237);
+    border: none;
+}
+
+#breadcrump .col-sm-2 
+.btn-group>.btn-group:not(:first-child)>
+.btn, .btn-group>.btn:not(:first-child) {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgb(237,237,237);
+    border: none;
+}
+
+#breadcrumb .col-sm-2 .fa-chevron-circle-left{
+    font-size: 19px;
+    left: 21%;
+    top: 12%;
+}
+
+#breadcrumb .col-sm-2 .fa-chevron-circle-right{
+    font-size: 19px;
+    left: 10%;
+    top: 12%;
+}
+
+.features .container .row .col-sm-3 h6 {
+    padding-left: 1.25rem;
+    margin-bottom: 0;
+}
+.features .container .row .col-sm-3 i.fas.fa-star {
+    font-size: 15px;
+    font-size: 0.5rem;
+    color: rgb(200,167,96);
+}
+.features .container .row .col-sm-3 i.far {
+    font-size: 12px;
+    color: rgb(220,220,220);
+}
+
+.features .card h6.mb-0 {
+    height: 19px;
+}
+
+.features .container .row .col-sm-3 .card-body{
+    padding-top: 0;
+}
+
+.features .container .row .col-sm-3 .card-body .card-text{
+    color: rgb(117,117,117);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.2rem;
+}
+.features .fas.fa-euro-sign{
+    font-size: 0.2rem;
+    left: 8%;
+    bottom: 0.5%;
+    color: rgb(1,1,1);
+}
+.features .card-body div p {
+    color: rgb(1,1,1);
+    left: 13%;
+}
+.discount-15{
+    background-color: rgb(177,203,41);
+    height: 32px;
+    width: 81px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 2.3;
+    top: 14.4%;
+    letter-spacing: 1px;
+    font-weight: 800;
 }
 
 
