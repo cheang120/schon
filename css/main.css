@@ -630,6 +630,7 @@ body .list-group-item a {
 .features .card-body div p {
     color: rgb(1,1,1);
     left: 13%;
+    font-size: 16px;
 }
 .discount-15{
     background-color: rgb(177,203,41);
@@ -643,9 +644,49 @@ body .list-group-item a {
     letter-spacing: 1px;
     font-weight: 800;
 }
+ .features .card {
+     margin-bottom: 70px;
+ }
 
+ /* lastest  */
 
+ .latest .col-sm-4 {
+     padding: 0;
+ }
 
+ .latest .row {
+     padding-left: 15px;
+     padding-right: 15px;
+ }
 
+ .latest h5 {
+    color: rgb(187,187,187);
+    font-size: 15px;
+    letter-spacing: 6px;
+ }
+
+ .latest h3 {
+    color: rgb(83,83,83);
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 24px;
+ }
+
+.latest .btn {
+    bottom: 10%;
+    padding: 0;
+    text-align: left;
+    color: rgb(153,153,153);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.latest .btn i {
+    margin-left: 5px;
+}
+
+.latest .card img {
+    border-radius: 0;
+}
 
 
