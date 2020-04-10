@@ -1,4 +1,6 @@
-
+.pl-15 {
+    padding-left: 15px;
+}
 .card {
     border: 0;
     border-radius: 0;
@@ -22,6 +24,75 @@
 .mb-0 {
     margin-bottom: 0;
 }
+
+/* arrow start  */
+#breadcrumb .col-sm-2 .btn,
+.best-seller .col-sm-2 .btn{
+    width: 25px;
+    height: 25px;
+}
+
+#breadcrumb .container .col-sm-2,
+.best-seller .container .col-sm-2{
+    line-height: 3.5;
+}
+
+#breadcrump .col-sm-2 
+.btn-group>.btn-group:not(:last-child)>.btn, 
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle)
+.best-seller .col-sm-2 
+.btn-group>.btn-group:not(:last-child)>.btn, 
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle)
+{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: rgb(237,237,237);
+    border: none;
+}
+
+#breadcrump .col-sm-2 
+.btn-group>.btn-group:not(:first-child)>
+.btn, .btn-group>.btn:not(:first-child),
+.best-seller .col-sm-2 
+.btn-group>.btn-group:not(:first-child)>
+.btn, .btn-group>.btn:not(:first-child) {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: rgb(237,237,237);
+    border: none;
+}
+
+#breadcrumb .col-sm-2 .fa-chevron-circle-left,
+.best-seller .col-sm-2 .fa-chevron-circle-left
+{
+    font-size: 19px;
+    left: 21%;
+    top: 12%;
+}
+
+#breadcrumb .col-sm-2 .fa-chevron-circle-right,
+.best-seller .col-sm-2 .fa-chevron-circle-right{
+    font-size: 19px;
+    left: 10%;
+    top: 12%;
+}
+/* arrow end  */
+
+
+/* star start */
+.features .container .row .col-sm-3 i.fas.fa-star,
+.best-seller .container .row .col-sm i.fas.fa-star{
+    font-size: 15px;
+    font-size: 0.5rem;
+    color: rgb(200,167,96);
+}
+.features .container .row .col-sm-3 i.far,
+.best-seller .container .row .col-sm i.far {
+    font-size: 12px;
+    color: rgb(220,220,220);
+}
+/* star end  */
+
 /* header-top start */
 
 #header-top {
@@ -554,58 +625,13 @@ body .list-group-item a {
     color: rgb(131,129,130);
 }
 
-#breadcrumb .col-sm-2 .btn {
-    width: 25px;
-    height: 25px;
-}
 
-#breadcrumb .container .col-sm-2{
-    line-height: 3.5;
-}
-
-#breadcrump .col-sm-2 
-.btn-group>.btn-group:not(:last-child)>.btn, 
-.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    background-color: rgb(237,237,237);
-    border: none;
-}
-
-#breadcrump .col-sm-2 
-.btn-group>.btn-group:not(:first-child)>
-.btn, .btn-group>.btn:not(:first-child) {
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    background-color: rgb(237,237,237);
-    border: none;
-}
-
-#breadcrumb .col-sm-2 .fa-chevron-circle-left{
-    font-size: 19px;
-    left: 21%;
-    top: 12%;
-}
-
-#breadcrumb .col-sm-2 .fa-chevron-circle-right{
-    font-size: 19px;
-    left: 10%;
-    top: 12%;
-}
 
 .features .container .row .col-sm-3 h6 {
     padding-left: 1.25rem;
     margin-bottom: 0;
 }
-.features .container .row .col-sm-3 i.fas.fa-star {
-    font-size: 15px;
-    font-size: 0.5rem;
-    color: rgb(200,167,96);
-}
-.features .container .row .col-sm-3 i.far {
-    font-size: 12px;
-    color: rgb(220,220,220);
-}
+
 
 .features .card h6.mb-0 {
     height: 19px;
@@ -689,4 +715,61 @@ body .list-group-item a {
     border-radius: 0;
 }
 
+.latest .col-sm-4 {
+    margin-bottom: 70px;
+}
+
+.best-seller .col-sm:first-child h1{
+    font-size: 28px;
+    color: #3A3A3A;
+    font-family: Montserrat-Bold,AdobeInvisFont,MyriadPro-Regular;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.best-seller .col-sm h6 {
+    bottom: 6%;
+}
+
+.best-seller .card h3.new {
+    background-color: #000000;
+    left: 0;
+    width: 48px;
+    height: 25px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 2.1;
+}
+
+.best-seller .card-body {
+    padding: 0;
+    padding-left: 15px;
+}
+.best-seller .card,
+.best-seller .card img.card-img-top {
+    margin-bottom: 15px;
+}
+.best-seller h5 {
+    color: #757575;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.best-seller .euro {
+    font-size: 12px;
+}
+.best-seller .price {
+    color: #010101;
+}
+.best-seller .price p {
+    font-size: 14px;
+    line-height: 2;
+}
+.best-seller .card-title.mb{
+    margin-bottom: 0.5rem;
+}
+
+.best-seller .price p {
+    font-size: 17px;
+}
 
