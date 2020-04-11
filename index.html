@@ -281,7 +281,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            <div class="card" style="width: 16rem;">
+            <div class="card" >
               <img src="https://placeimg.com/275/275/any" class="card-img-top" alt="...">
               <h6 class="text-left">
                 <i class="fas fa-star"></i>
@@ -300,7 +300,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="card" style="width: 16rem;">
+            <div class="card" >
               <img src="https://placeimg.com/275/275/any" class="card-img-top" alt="...">
               <h6 class="mb-0"> </h6>
               <div class="card-body">
@@ -313,7 +313,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="card" style="width: 16rem;">
+            <div class="card">
               <img src="https://placeimg.com/275/275/any" class="card-img-top" alt="...">
               <div class="discount-15 position-absolute">
                 15% Off
@@ -335,7 +335,7 @@
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="card" style="width: 16rem;">
+            <div class="card">
               <img src="https://placeimg.com/275/275/any" class="card-img-top" alt="...">
               <h6 class="mb-0"> </h6>
               <div class="card-body">
@@ -442,11 +442,17 @@
           <div class="card bg-dark text-white">
             <img src="https://placeimg.com/213/213/any" class="card-img" alt="...">
             <div class="card-img-overlay">
-              <i>i</i>
-              <ul class="card-title">
-                <li><i>i</i><a href="#">Add to Cart</a></li>
-                <li><i>i</i></li>
-                <li><i>i</i></li>
+              <i class="fas fa-hand-pointer fs-12px"></i>
+              <ul class="position-absolute cart list-group-a list-group list-group-horizontal card-title text-center d-flex justify-content-center nth-of-type-keyword">
+                <li class="list-group-item item-a">
+                  <a href="#"><i class="fas fa-shopping-basket"></i> Add to Cart</a>
+                </li>
+                <li class="list-group-item item-b">
+                  <a href="#"><i class="far fa-heart"></i></a>
+                </li>
+                <li class="list-group-item item-b">
+                  <a href="#"><i class="fas fa-map-signs"></i></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -476,9 +482,8 @@
           <div class="card bg-dark text-white">
             <img src="https://placeimg.com/213/213/any" class="card-img" alt="...">
             <div class="card-img-overlay">
-              <h3>15% Off</h3>
-              <h3 class="new">NEW</h3>
-              <i>***</i>
+              <h4 class="position-absolute discount-15">15% Off</h4>
+              <h3 class="position-absolute new">NEW</h3>
             </div>
           </div>
           <div class="pl-15">
@@ -494,11 +499,19 @@
           <div class="card bg-dark text-white">
             <img src="https://placeimg.com/213/213/any" class="card-img" alt="...">
             <div class="card-img-overlay">
-              <i>i</i>
-              <ul class="card-title">
-                <li><i>i</i><a href="#">Add to Cart</a></li>
-                <li><i>i</i></li>
-                <li><i>i</i></li>
+              <i class="fas fa-hand-pointer fs-12px"></i>
+              <ul class="position-absolute cart list-group list-group-b list-group-horizontal card-title text-center d-flex justify-content-center nth-of-type-keyword">
+                <li class="list-group-item ">
+                  <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                </li>
+                <li class="list-group-item" style="color: rgb(237,237,237);">|</li>
+                <li class="list-group-item ">
+                  <a href="#"><i class="far fa-heart"></i></a>
+                </li>
+                <li class="list-group-item" style="color: rgb(237,237,237);">|</li>
+                <li class="list-group-item ">
+                  <a href="#"><i class="fas fa-eye"></i></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -518,53 +531,56 @@
   <section class="brands">
     <div class="container">
       <div class="row">
-        <div class="d-flex justify-content-sm-start">
+        <div class="col-sm d-flex justify-content-sm-start align-bottom">
           <h1>BRANDS</h1>
-          <h4>FURNITURE</h4>
+          <p >FURNITURE</p>
         </div>
         
       </div>
       <div class="row">
-        <!-- <ul class="list-group list-group-horizontal-sm">
-          <li class="list-group-item"><a href="#"><img src="images/devon.png" alt=""></a></li>
-          <li class="list-group-item"><a href="#"><img src="images/gan.png" alt=""></a></li>
-          <li class="list-group-item"><a href="#"><img src="images/artek.png" alt=""></a></li>
-          <li class="list-group-item"><a href="#"><img src="images/ton.png" alt=""></a></li>
-          <li class="list-group-item"><a href="#"><img src="images/dura.png" alt=""></a></li>
-          <li class="list-group-item"><a href="#"><img src="images/zan.png" alt=""></a></li>
-        </ul> -->
+        <div class="col-sm-12 d-flex justify-content-center">
+          <ul class="list-group list-group-horizontal-sm">
+            <li class="list-group-item"><a href="#"><img src="images/devon.png" alt=""></a></li>
+            <li class="list-group-item"><a href="#"><img src="images/gan.png" alt=""></a></li>
+            <li class="list-group-item"><a href="#"><img src="images/artek.png" alt=""></a></li>
+            <li class="list-group-item"><a href="#"><img src="images/ton.png" alt=""></a></li>
+            <li class="list-group-item"><a href="#"><img src="images/dura.png" alt=""></a></li>
+            <li class="list-group-item"><a href="#"><img src="images/zan.png" alt=""></a></li>
+          </ul>
+        </div>
+        
       </div>
     </div>
 
   </section>
 
-  <div class="#footer">
+  <div id="footer">
     <div class="container">
       <div class="row support">
         <div class="col-sm-3">
-          <i>i</i>
-          <div class="service">
+          <i class="fas fa-plane"></i>
+          <div class="service d-inline-block">
             <h5>FREE SHIPPING</h5>
             <p>Free shipping on all US order</p>
           </div>
         </div>
         <div class="col-sm-3">
-          <i>i</i>
-          <div class="service">
+          <i class="far fa-life-ring"></i>
+          <div class="service d-inline-block">
             <h5>SUPPORT 24/7</h5>
             <p>We support 24 hours a day</p>
           </div>
         </div>
         <div class="col-sm-3">
-          <i>i</i>
-          <div class="service">
+          <i class="fab fa-dropbox"></i>
+          <div class="service d-inline-block">
             <h5>GIFT CARDS</h5>
             <p>Give perfect gift</p>
           </div>
         </div>
         <div class="col-sm-3">
-          <i>i</i>
-          <div class="service">
+          <i class="far fa-money-bill-alt"></i>
+          <div class="service d-inline-block">
             <h5>PAYMENT 100% SECURE</h5>
             <p>Payment 100% secure</p>
           </div>
@@ -572,7 +588,7 @@
 
       </div>
       <div class="row contact">
-        <div class="col-sm">
+        <div class="col-sm-3">
           <ul class="list-group">
             <li class="list-group-item">
               <a href="#">
@@ -583,22 +599,22 @@
             </li>
             <li class="list-group-item">commodo consequat. Duis aute irure
             </li>
-            <li class="list-group-item">
-              <i>i</i>
-              <a href="#">Connaugt Road Central Suite 18B, 148 New Yankee</a>
+            <li class="list-group-item address position-relative">
+              <i class="fas fa-map-marker-alt d-inline-block position-absolute"></i>
+              <div class="d-inline-block">Connaugt Road Central Suite 18B, 148 New Yankee</div> 
             </li>
-            <li class="list-group-item">
-              <i>i</i>
+            <li class="list-group-item phone">
+              <i class="fas fa-phone-alt"></i>
               <a href="tel:+1 (555) 333 22 11">+1 (555) 333 22 11</a>
             </li>
-            <li class="list-group-item">
-              <i>i</i>
+            <li class="list-group-item email">
+              <i class="far fa-envelope"></i>
               <a href="mailto:info@schon.chairs">info@schon.chairs</a>
             </li>
           </ul>
 
         </div>
-        <div class="col-sm">
+        <div class="col-sm-2 first">
           <ul class="list-group">
             <li class="list-group-item disabled" aria-disabled="true">Categories</li>
             <li class="list-group-item"><a href="#">Chairs</a></li>
@@ -609,7 +625,7 @@
             <li class="list-group-item"><a href="#">New</a></li>
           </ul>
         </div>
-        <div class="col-sm">
+        <div class="col-sm-2">
           <ul class="list-group">
             <li class="list-group-item disabled" aria-disabled="true">Information</li>
             <li class="list-group-item"><a href="#">About Us</a></li>
@@ -620,7 +636,7 @@
             <li class="list-group-item"><a href="#">FAQs</a></li>
           </ul>
         </div>
-        <div class="col-sm">
+        <div class="col-sm-2">
           <ul class="list-group">
             <li class="list-group-item disabled" aria-disabled="true">Account</li>
             <li class="list-group-item"><a href="#">My Account</a></li>
@@ -630,8 +646,8 @@
             <li class="list-group-item"><a href="#">Checkout</a></li>
           </ul>
         </div>
-        <div class="col-sm">
-          <a href="#">Sing Up Newsletter</a>
+        <div class="col-sm-3">
+          <div class="sign"><a href="#">Sign Up Newsletter</a></div>
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Your e-mail" aria-label="Your e-mail" aria-describedby="basic-addon2">
             <div class="input-group-append">
@@ -639,13 +655,14 @@
             </div>
           </div>
           <h3>Follow Us</h3>
-          <ul class="list-group list-group-horizontal-sm">
-            <li class="list-group-item"><a href="#"><i>i</i></a></li>
-            <li class="list-group-item"><a href="#"><i>i</i></a></li>
-            <li class="list-group-item"><a href="#"><i>i</i></a></li>
-            <li class="list-group-item"><a href="#"><i>i</i></a></li>
-            <li class="list-group-item"><a href="#"><i>i</i></a></li>
-            <li class="list-group-item"><a href="#"><i>i</i></a></li>
+          <ul class="list-group list-group-horizontal-sm d-flex justify-content-end">
+
+            <li class="list-group-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-group-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-group-item"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li class="list-group-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li class="list-group-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li class="list-group-item"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
           </ul>
         </div>
       </div>
