@@ -235,6 +235,7 @@ body .list-group-item a {
  /* header start  */
  .container-sm, .container-md, .container-lg, .container-xl {
      margin: 15px auto;
+     margin-top: 0;
  }
 
  #header .col-sm-2 #logo {
