@@ -358,17 +358,17 @@ body .list-group-item a {
 
 .sales-a .card-img-overlay.newCollection {
     padding: 0;
-    padding-left: 10%;
-    padding-top: 40%;
+    padding-left: 3rem;
+    padding-top: 11rem;
 }
 
 .newCollection .card-title {
-    width: 287px;
-    height: 29px;
+    width: 13rem;
+    height: 1.5rem;
     background-color: #535353;
     margin: 0;
     padding: 5px 10px 17px;
-    font-size: 10px;
+    font-size: 0.1rem;
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 1.7;
@@ -709,9 +709,10 @@ body .list-group-item a {
 
  .latest h3 {
     color: rgb(83,83,83);
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 3px;
     font-size: 24px;
+
  }
 
 .latest .btn {
@@ -1053,4 +1054,17 @@ body .list-group-item a {
 }
 #footer .contact .col-sm-3:last-child li a i{
     color: rgb(134,134,134);
+}
+
+/* copyright  */
+
+#copyright .copyright{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.copyright div {
+    color: #868686;
+}
+.copyright div b {
+    color: black;
 }
