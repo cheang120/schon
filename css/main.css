@@ -1,3 +1,6 @@
+.container {
+    max-width: 1200px;
+}
 .pl-15 {
     padding-left: 15px;
 }
@@ -209,25 +212,7 @@ body .list-group-item a {
 
 
 
-@media (min-width: 576px) { 
-    
-}
 
-
-@media (min-width: 768px) { 
-
-    
- }
-
-
-@media (min-width: 992px) { 
-    
- }
-
-
-@media (min-width: 1200px) { 
-    
- }
  /* header-top end  */
 
 
@@ -542,10 +527,7 @@ body .list-group-item a {
     font-size: 17px;
 }
 
-.sales-b .card:first-child h3{
-    text-align: right;
-    font-weight: 300;
-}
+
 
 .sales-b .shop-now-white{
     right: 8%;
@@ -806,11 +788,11 @@ body .list-group-item a {
 
 .best-seller .list-group-b {
     bottom: 10%;
-    left: 8%;
+    left: 16%;
 }
 .best-seller .list-group-item {
     border-radius: 0;
-    padding: 0px 20px;
+    padding: 0px 15px;
     line-height: 1.4;
     padding-bottom: 8px;
     padding-top: 5px;
@@ -916,10 +898,15 @@ body .list-group-item a {
     padding-left: 15px;
     padding-right: 15px;
 }
-#footer .support .col-sm-3{
+#footer .support .col-sm-3,
+#footer .support .col-sm-2,
+#footer .support .col-sm-4{
     padding: 0;
     border-bottom: 1px solid rgb(224,224,224);
     padding-bottom: 1rem;
+}
+#footer .support .col-sm-4{
+    padding-left: 3%;
 }
 
 #footer .support h5,
@@ -957,66 +944,66 @@ body .list-group-item a {
     padding: 0;
 }
 
-#footer .contact .col-sm-3:first-child li {
+#footer .contact .col-sm-7 li {
     font-size: 0.8rem;
     color: rgb(134,134,134);
     padding-top: 0;
     padding-bottom: 0;
 }
-#footer .contact .col-sm-3:first-child li:first-child{
+#footer .contact .col-sm-7 li:first-child{
     padding: 1.25rem;
 }
 
-#footer .contact .col-sm-3:first-child .list-group-item.address{
+#footer .contact .col-sm-7 .list-group-item.address{
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-#footer .contact .col-sm-3:first-child .list-group-item.address i{
+#footer .contact .col-sm-7 .list-group-item.address i{
     width: 5%;
     margin-right: 3%;
     line-height: 1.5;
 
 }
 
-#footer .contact .col-sm-3:first-child .list-group-item.address div {
+#footer .contact .col-sm-7 .list-group-item.address div {
     width: 90%;
     margin-left: 9%;
 }
 
-#footer .contact .col-sm-3:first-child .list-group-item.phone a,
-#footer .contact .col-sm-3:first-child .list-group-item.email a{
+#footer .contact .col-sm-7 .list-group-item.phone a,
+#footer .contact .col-sm-7 .list-group-item.email a{
     margin-left: 2%;
 }
 
-#footer .contact .col-sm-2 li.disabled {
+#footer .contact .col-sm-4 li.disabled {
     height: 67px;
 }
 
-#footer .contact .col-sm-2 li{
+#footer .contact .col-sm-4 li{
     padding-top: 0;
 }
-#footer .contact .col-sm-2 li:first-child {
+#footer .contact .col-sm-4 li:first-child {
     padding-top: .75rem;
     font-size: 1.1rem;
     letter-spacing: 1px;
 }
 
-#footer .contact .col-sm-2.first  {
+#footer .contact .col-sm-4.first  {
     padding-left: 2rem;
 }
-#footer .contact .col-sm-3:last-child div.sign {
+#footer .contact .col-sm-5 div.sign {
     padding: 0.75rem 1.25rem;
     text-align: right;
 }
 
-#footer .contact .col-sm-3:last-child div.sign a {
+#footer .contact .col-sm-5 div.sign a {
     text-decoration: none;
     color: rgb(87,87,87);
     letter-spacing: 1px;
 }
 
-#footer .contact .col-sm-3 .input-group {
+#footer .contact .col-sm-5 .input-group {
     padding: 1.25rem;
     padding-left: 0;
 }
@@ -1039,7 +1026,7 @@ body .list-group-item a {
     color: white;
     letter-spacing: 1px;
 }
-#footer .contact .col-sm-3:last-child h3 {
+#footer .contact .col-sm-5 h3 {
     text-align: right;
     font-size: 1.1rem;
     padding: 1.25rem;
@@ -1048,12 +1035,12 @@ body .list-group-item a {
     padding-bottom: 0.5rem;
 }
 
-#footer .contact .col-sm-3:last-child li {
+#footer .contact .col-sm-5 li {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     
 }
-#footer .contact .col-sm-3:last-child li a i{
+#footer .contact .col-sm-5 li a i{
     color: rgb(134,134,134);
 }
 
@@ -1069,3 +1056,630 @@ body .list-group-item a {
 .copyright div b {
     color: black;
 }
+
+
+@media (min-width: 576px) and (max-width: 767px) { 
+    .container {
+        min-width: 540px;
+    }
+    
+    .sales-b .card:first-child h3{
+        text-align: right;
+        font-weight: 300;
+        font-size: 1.3rem;
+    }
+    #mystyle .col-sm-12 .list-group-horizontal-sm .list-group-item{
+        padding: 6px 2px;
+        margin: 0 auto;
+    }
+    #header .col-sm-2 {
+        padding-right: 0;
+    }
+    #header .col-sm-2 img {
+        width: 100%;
+    }
+    #header .col-sm-7 ul {
+        padding: 10px 0;
+    }
+
+    #header .col-sm-7 ul .one, .two, .three {
+        width: 33.33333%;
+    }
+    #header .col-sm-7 ul .four, .five, .six {
+        width: 25%;
+    }
+    #header .col-sm-7 ul li a {
+        padding: 0 1rem;
+    }
+    #header .col-sm-2 #logo {
+        line-height: 5;
+    }
+    #header .col-sm-3 {
+        padding-right: 0;
+    }
+    #header .col-sm-3 ul {
+        padding-right: 0;
+        margin-top: 21px;
+    }
+    #header .col-sm-3 ul li {
+        width: 120%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .icon_shopping {
+        left: 0;
+        line-height: 3;
+        font-size: 1.5rem;
+    }
+    #header .list-group, .price-item {
+        padding-left: 15%;
+    }
+    #header .list-group, .price-item .item {
+        padding-right: 10%;
+    }
+    .sales-a .card-img-overlay.newCollection {
+        padding-left: 1rem;
+        padding-top: 2rem;
+    }
+    .sales-a .sales {
+        padding: 0.5rem;
+    }
+    .card-img-overlay.sales .card-title {
+        padding: 0;
+        width: 100px;
+    }
+    .sales h3 {
+        padding: 0;
+        font-size: 1rem;
+    }
+    .sales .discount {
+        width: 70px;
+        height: 70px;
+        right: 13px;
+    }
+    .sales .discount p:last-child {
+        font-size: 15px;
+    }
+    .sales-a .card.text-white-c {
+        margin-bottom: 36px;
+    }
+    .card-img-overlay {
+        padding: 0.25rem;
+    }
+    .card.text-white-c h4, .card.text-white-d h4 {
+        line-height: 1;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .text-white-c .btn {
+        right: 0;
+    }
+    .card.text-white-c p {
+        bottom: 18%;
+        right: 0;
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .card.text-white-d h5 {
+        margin: 0;
+    }
+    .sales-a .col-sm-3 .text-white-d .two {
+        margin: 0;
+        font-size: 12px;
+        margin-right: 0;
+        width: 42%;
+    }
+    .text-white-d .card-text.three {
+        font-size: 0.1rem;
+        margin-bottom: 0;
+        width: 100px;
+        bottom: -1%;
+    }
+    .col-sm-3 .text-white-d .hurry-up {
+        bottom: 3%;
+        left: 52%;
+        color: #939393;
+    }
+    .chairs {
+        text-align-last: end;
+        letter-spacing: 2px;
+        font-weight: 300;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .sales-b .card:first-child h3 {
+        font-size: 1.1rem;
+    }
+    .sales-b .col-sm-4 .card:first-child {
+        margin-bottom: 31%;
+    }
+    .sales-b .card:last-child h4 {
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+    .sales-b .card:last-child h3 {
+        font-size: 1.1rem;
+    }
+    .sales-b .col-sm-8 .card-img-overlay {
+        padding: 1.25rem;
+    }
+    .sales-b .col-sm-8 h1 {
+        letter-spacing: 1px;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .features .container .row .col-sm-3 h6 {
+        padding-left: 0;
+    }
+    .card-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .features .fas.fa-euro-sign {
+        left: 1%;
+    }
+    .latest h5 {
+        font-size: 15px;
+        letter-spacing: 6px;
+        margin-bottom: 0;
+    }
+    .latest h3 {
+        letter-spacing: 1px;
+        font-size: 21px;
+    }
+    .best-seller .card-body {
+        padding: 0;
+        padding-left: 0;
+    }
+    .best-seller .list-group {
+        padding-left: 0;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+    }
+    .best-seller .list-group-a .item-a{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .best-seller .col-sm-4 h6 i:not(:last-child){
+        font-size: 12px;
+        color: rgb(200,167,96);
+    }
+    .best-seller .col-sm-4 h6 i:last-child{
+        font-size: 12px;
+        color: rgb(220 ,220,220);
+    }
+    .best-seller .col-sm-4 h6{
+        bottom: -24px;
+        left: 0;
+    }
+    .best-seller .col-sm .new {
+        top: 60px;
+    }
+    .best-seller .col-sm:last-child .list-group {
+        bottom: 20px;
+    }
+    .brands .col-sm-12 ul > li {
+        padding: 0.75rem 0.3rem;
+    }
+    .brands .col-sm-12 ul .list-group-item img {
+        width: 80%;
+    }
+    #footer .contact ul li .fa-map-marker-alt{
+        color: #a1a1a1;
+    }
+}
+
+
+@media (min-width: 768px) { 
+    .container {
+        min-width: 720px;
+    }
+    #header .col-sm-2 {
+        padding-right: 0;
+    }
+    #header .col-sm-2 img {
+        width: 80%;
+    }
+    #header .col-sm-7 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #header .col-sm-7 ul {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #header .col-sm-7 ul a {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    #header .col-sm-3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #header .col-sm-3 i{
+        left: 13%;
+        line-height: 2.3;
+        font-size: 1.5rem;
+    }
+    #header .list-group, .price-item {
+        padding-left: 35%;
+    }
+    .sales-a .card-img-overlay.newCollection {
+        padding-top: 35%;
+    }
+    .card-img-overlay.sales .card-title{
+        padding: 5px 0px 17px;
+        letter-spacing: 0.5px;
+    }
+    .sales h3 {
+        width: 200;
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+    .sales-b .col-sm-4 .card:first-child {
+        margin-bottom: 27%;
+    }
+    .sales .discount{
+        width: 90px;
+        height: 90px;
+    }
+    .card-img-overlay {
+        padding: 0.5rem;
+    }
+    .card.text-white-c h4, .card.text-white-d h4 {
+        font-weight: 300;
+        line-height: 1;
+        color: #939393;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .sales-a .col-sm-3:last-child .card-img-overlay i{
+        font-style: 0.5rem;
+        margin-bottom: 9%;
+
+    }
+    .sales-a .col-sm-3:last-child p {
+        bottom: 13%;
+        right: 3%;
+    }
+    .sales-a .col-sm-3:last-child .btn {
+        bottom: 5%;
+        right: 3%;
+    }
+    .card.text-white-c h4, .card.text-white-d h4 {
+        font-weight: 300;
+        line-height: 1;
+        color: #939393;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .sales-a .col-sm-3:last-child .card-img-overlay i{
+        font-style: 1.5rem;
+        margin-bottom: 0;
+
+    }
+    .sales-a .text-white-d p.three{
+        bottom: 0%;
+        left: 6%;
+    }
+    .sales-a .text-white-d i.hurry-up {
+        bottom: 3%;
+        left: 46%;
+        
+    }
+
+    .features .fas.fa-euro-sign {
+        left: 8%;
+    }
+
+    .features .container .row .col-sm-3 .card-body .card-text{
+        font-size: 0.5rem;
+        letter-spacing: 0.5px;
+    }
+    .sales-b .card:first-child h3{
+        text-align: right;
+        font-weight: 300;
+        font-size: 1.3rem;
+    }
+    .best-seller .col-sm .item-a {
+        width: 100%;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .best-seller .list-group-a .item-b {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .best-seller .discount-15 {
+        top: 10%;
+    }
+    .best-seller .col-sm:last-child .list-group-item:nth-child(2n+1) {
+        padding: 4px 5px;
+    }
+    .best-seller .list-group-b {
+        left: 17%;
+    }
+
+    #header .col-sm-7 ul .one, .two, .three {
+        width: auto;
+    }
+    #header .col-sm-7 ul .four, .five, .six {
+        width: auto;
+    }
+    #header .col-sm-2 #logo {
+        line-height: 4;
+    }
+    .icon_shopping {
+        left: 23%;
+        line-height: 2;
+        font-size: 1.5rem;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .container {
+        min-width: 960px;
+    }
+    #header .col-sm-7 {
+        padding: 0;
+    }
+    #header .col-sm-7 .nav-tabs {
+        padding: 10px 0px 10px;
+    }
+
+    .sales-a .col-sm-3:last-child h5,
+    .sales-a .col-sm-3:last-child p {
+        margin-bottom: 0;
+    }
+    .col-sm-3 .text-white-d .hurry-up{
+        bottom: 3%;
+        left: 39%;
+    }
+    .sales-a .col-sm-3:last-child p {
+        line-height: 1.4;
+    }
+    .best-seller .discount-15 {
+        top: 18%;
+    }
+    .best-seller .list-group-b{
+        bottom: 10%;
+        left: 13.5%;
+    }
+    .best-seller .list-group-a .item-a{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .card-img-overlay.sales .card-title{
+        width: 200px;
+        height: 10px;
+        margin: 0;
+        padding: 5px 10px 17px;
+        font-size: 10px;
+        font-weight: 300;
+        letter-spacing: 2.5px;
+    }
+    .sales h3 {
+        width: 200;
+        margin: 0;
+        padding: 5px 10px 17px;
+        font-size: 1.5em;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+    .sales-a .col-sm-3:last-child .card-img-overlay i{
+        font-style: 0.5rem;
+        margin-bottom: 13%;
+
+    }
+    .sales-a .col-sm-3:last-child p {
+        bottom: 15%;
+        right: 3%;
+    }
+    .sales-a .col-sm-3:last-child .btn {
+        bottom: 5%;
+        right: 3%;
+    }
+    .card.text-white-c h4, .card.text-white-d h4 {
+        font-weight: 300;
+        line-height: 1.5;
+        color: #939393;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .sales-a .col-sm-3:last-child .card-img-overlay i{
+        font-style: 1.5rem;
+        margin-bottom: 13%;
+
+    }
+    .sales-a .col-sm-3 .text-white-d p {
+        margin-bottom: 0;
+    }
+    .sales-a .col-sm-3:last-child .card-img-overlay i{
+        font-style: 1.5rem;
+        margin-bottom: 0;
+
+    }
+    .sales-a .text-white-d p.three{
+        bottom: 0%;
+        left: 6%;
+    }
+    .sales-a .text-white-d i.hurry-up {
+        bottom: 3%;
+        left: 46%;
+        
+    }
+    
+    .features .fas.fa-euro-sign {
+        left: 8%;
+    }
+    .best-seller .new {
+        top: 33%;
+    }
+    .sales-b .card:first-child h3{
+        text-align: right;
+        font-weight: 300;
+    }
+
+
+    .best-seller .col-sm:last-child .list-group-item:nth-child(2n+1) {
+        padding: 6px 15px;
+    }
+    .best-seller .list-group-b {
+        left: 10%;
+    }
+    #header .col-sm-7 ul .one, .two, .three {
+        width: auto;
+    }
+    #header .col-sm-7 ul .four, .five, .six {
+        width: auto;
+    }
+    #header .col-sm-2 #logo {
+        line-height: 4;
+    }
+    .icon_shopping {
+        left: 23%;
+        line-height: 2;
+        font-size: 1.5rem;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .container {
+        min-width: 1140px;
+    }
+    
+    #header .col-sm-7 ul{
+        padding: 10px 0 10px;
+    }
+    .card.text-white-d h4 {
+        margin-bottom: 0;
+    }
+    
+    .sales-b .col-sm-4 .card:first-child {
+        margin-bottom: 82px;
+    }
+    .best-seller .list-group-a .item-a{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .best-seller .discount-15 {
+        top: 18%;
+    }
+    .best-seller .list-group-b{
+        bottom: 10%;
+        left: 16%;
+    }
+   
+    .best-seller .list-group-item {
+        padding: 5px 15px;
+    }
+    #footer .support p {
+        letter-spacing: 0.5px;
+    }
+    .card-img-overlay.sales .card-title{
+        width: 200px;
+        height: 10px;
+        margin: 0;
+        padding: 5px 10px 17px;
+        font-size: 10px;
+        font-weight: 300;
+        letter-spacing: 2.5px;
+    }
+    .sales h3 {
+        width: 200;
+        margin: 0;
+        padding: 5px 10px 17px;
+        font-size: 1.5em;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+    .sales-a .col-sm-3:last-child .card-img-overlay i{
+        font-style: 0.5rem;
+        margin-bottom: 13%;
+
+    }
+    .sales-a .col-sm-3:last-child p {
+        bottom: 15%;
+        right: 3%;
+    }
+    .sales-a .col-sm-3:last-child .btn {
+        bottom: 5%;
+        right: 3%;
+    }
+    .card.text-white-c h4, .card.text-white-d h4 {
+        font-weight: 300;
+        line-height: 1.5;
+        color: #939393;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .sales-a .col-sm-3:last-child .card-img-overlay i{
+        font-style: 1.5rem;
+        margin-bottom: 13%;
+
+    }
+
+    .sales-a .col-sm-3 .text-white-d p {
+        margin-bottom: 0;
+    }
+    .sales-a .col-sm-3:last-child .card-img-overlay i{
+        font-style: 1.5rem;
+        margin-bottom: 0;
+
+    }
+    .sales-a .text-white-d p.three{
+        bottom: 0%;
+        left: 6%;
+    }
+    .sales-a .text-white-d i.hurry-up {
+        
+        bottom: 2%;
+        left: 30%;
+    }
+    .features .fas.fa-euro-sign {
+        left: 8%;
+    }
+    .sales-b .card:first-child h3{
+        text-align: right;
+        font-weight: 300;
+    }
+
+
+    .best-seller .col-sm:last-child .list-group-item:nth-child(2n+1) {
+        padding: 6px 15px;
+    }
+    .best-seller .list-group-b {
+        left: 17%;
+    }
+    #header .col-sm-7 ul .one, .two, .three {
+        width: auto;
+    }
+    #header .col-sm-7 ul .four, .five, .six {
+        width: auto;
+    }
+    #header .col-sm-2 #logo {
+        line-height: 4;
+    }
+    .icon_shopping {
+        left: 23%;
+        line-height: 2;
+        font-size: 1.5rem;
+    }
+
+    #footer .contact .col-sm-7 li:first-child {
+        padding: 15px;
+    }
+    #footer .contact .col-sm-7 li {
+        font-size: 0.8rem;
+        color: rgb(134,134,134);
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+ }
+ 
