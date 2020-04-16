@@ -24,7 +24,8 @@
       <div class="container">
           <div class="row" id="mystyle">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-              <ul class="list-group list-group-horizontal-sm d-flex flex-row" >
+              <ul class="list-group list-group-horizontal-sm d-flex flex-row justify-content-sm-between justify-content-md-start justify-content-lg-start
+              " >
                 <li class="list-group-item bg-gray">
                     <i class="fas fa-phone-alt"></i>
                     <a href="tel:+1 (555) 333 22 11">+1 (555) 333 22 11</a>
@@ -37,7 +38,7 @@
             </div>
             
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-              <ul class="list-group list-group-horizontal-sm d-flex flex-row justify-content-end" >
+              <ul class="list-group list-group-horizontal-sm d-flex flex-row justify-content-sm-between justify-content-md-end justify-content-lg-end" >
                 <li class="list-group-item ">
                     <a href="#">Order Track</a>
                 </li>
@@ -55,7 +56,7 @@
   
   <div id="header">
       <div class="container">
-          <div class="row">
+          <div class="row d-flex justify-content-between">
               <div class="col-sm-2">
                   <div id="logo">
                       <a href="#">
@@ -63,11 +64,11 @@
                       </a>
                   </div>
               </div>
-              <div class="col-sm-7 ">
-                  <nav class="navbar navbar-expand-sm navbar-light">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
+              <div class="col-sm-10 ">
+                  <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-end">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav nav-tabs">
                           <li class="nav-item one">
@@ -107,20 +108,21 @@
                             </i>
                           </li>
                         </ul>
+                        <div class="shopping-cart position-relative ">
+                          <i class="fas fa-shopping-bag position-absolute icon_shopping"></i>
+                          <ul class="list-group shopping-cart d-flex justify-content-end">
+                            <li class="list-group-item">SHOPPING CART
+                            </li>
+                          </ul>
+                          <div class="d-print-inline-block price-item d-flex justify-content-start">
+                            <div class="item">3 items</div>
+                            <div class="price">$74.00</div>
+                          </div>
+                        </div>
                       </div>
+                      
                   </nav>
               </div>
-              <div class="col-sm-3 ">
-                  <i class="fas fa-shopping-bag position-absolute icon_shopping"></i>
-                  <ul class="list-group shopping-cart ">
-                      <li class="list-group-item">SHOPPING CART
-                      </li>
-                  </ul>
-                  <div class="d-print-inline-block price-item">
-                    <div class="d-inline item">3 items</div>
-                    <div class="d-inline price">$74.00</div>
-                  </div>
-              </div> 
           </div>
       </div>
       
@@ -134,7 +136,7 @@
             <div class="col-sm-6">
               <div class="card text-white-a">
                   <img class="card-img rounded-0" src="https://placeimg.com/589/563/any" alt="Card image">
-                  <div class="card-img-overlay newCollection">
+                  <div class="card-img-overlay newCollection position-absolute">
                     <h5 class="card-title">FURNITURE DESIGNS IDEAS</h5>
                     <h1 class="new">New</h1>
                     <h1 class="collection">Collection</h1>
@@ -418,8 +420,8 @@
         </div> 
       </div>
 
-      <div class="row">
-        <div class="col-sm-4 col-md col-lg">
+      <div class="row d-flex justify-content-around">
+        <div class="col-sm-4 col-md-4 col-lg">
             <div class="card bg-dark text-white">
               <img src="https://placeimg.com/213/213/any" class="card-img" alt="...">
               <div class="card-img-overlay">
@@ -441,7 +443,7 @@
             </div>
         </div>
 
-        <div class="col-sm-4 col-md col-lg">
+        <div class="col-sm-4 col-md-4 col-lg">
           <div class="card bg-dark text-white">
             <img src="https://placeimg.com/213/213/any" class="card-img" alt="...">
             <div class="card-img-overlay">
@@ -468,7 +470,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4 col-md col-lg">
+        <div class="col-sm-4 col-md-4 col-lg">
           <div class="card mb-3">
             <img src="https://placeimg.com/213/213/any" class="card-img-top" alt="...">
             <div class="card-body">
@@ -481,7 +483,7 @@
           </div>
         </div>
 
-        <div class="col-sm col-md col-lg">
+        <div class="col-sm-4 col-md col-lg">
           <div class="card bg-dark text-white">
             <img src="https://placeimg.com/213/213/any" class="card-img" alt="...">
             <div class="card-img-overlay">
@@ -498,7 +500,7 @@
           </div>
         </div> 
 
-        <div class="col-sm col-md col-lg">
+        <div class="col-sm-4 col-md col-lg">
           <div class="card bg-dark text-white">
             <img src="https://placeimg.com/213/213/any" class="card-img" alt="...">
             <div class="card-img-overlay">
@@ -542,7 +544,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 d-flex justify-content-center">
-          <ul class="list-group list-group-horizontal-sm">
+          <ul class="list-group list-group-horizontal-sm list-group-horizontal">
             <li class="list-group-item"><a href="#"><img src="images/devon.png" alt=""></a></li>
             <li class="list-group-item"><a href="#"><img src="images/gan.png" alt=""></a></li>
             <li class="list-group-item"><a href="#"><img src="images/artek.png" alt=""></a></li>
@@ -559,7 +561,7 @@
 
   <div id="footer">
     <div class="container">
-      <div class="row support">
+      <div class="row support ">
         <div class="col-sm-3">
           <i class="fas fa-plane"></i>
           <div class="service d-inline-block">
@@ -658,7 +660,7 @@
             </div>
           </div>
           <h3>Follow Us</h3>
-          <ul class="list-group list-group-horizontal-sm d-flex justify-content-end">
+          <ul class="list-group list-group-horizontal list-group-horizontal-sm d-flex justify-content-end">
 
             <li class="list-group-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
             <li class="list-group-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -684,6 +686,8 @@
     </div>
   </div>
 
+
+  
 
 </body>
 </html>
