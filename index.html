@@ -24,7 +24,7 @@
       <div class="container">
           <div class="row" id="mystyle">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-              <ul class="list-group list-group-horizontal-sm d-flex flex-row justify-content-sm-between justify-content-md-start justify-content-lg-start
+              <ul class="list-group list-group-horizontal-sm d-flex flex-row justify-content-between justify-content-sm-between justify-content-md-start justify-content-lg-start
               " >
                 <li class="list-group-item bg-gray">
                     <i class="fas fa-phone-alt"></i>
@@ -38,7 +38,7 @@
             </div>
             
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-              <ul class="list-group list-group-horizontal-sm d-flex flex-row justify-content-sm-between justify-content-md-end justify-content-lg-end" >
+              <ul class="list-group list-group-horizontal-sm d-flex flex-row justify-content-between justify-content-sm-between justify-content-md-end justify-content-lg-end" >
                 <li class="list-group-item ">
                     <a href="#">Order Track</a>
                 </li>
@@ -57,24 +57,40 @@
   <div id="header">
       <div class="container">
           <div class="row d-flex justify-content-between">
-              <div class="col-sm-2">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-3 order-lg-1 order-md-1 order-sm-1 order-1">
                   <div id="logo">
                       <a href="#">
                           <img src="images/logo.png" class="logo" alt="">
                       </a>
                   </div>
               </div>
-              <div class="col-sm-10 ">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-12 order-lg-3 order-md-2 order-sm-2 order-3 d-flex justify-content-end">
+                <div class="search d-flex justify-content-between">
+                    <i class=" fas fa-search"></i>
+                    <i class="fas fa-shopping-bag icon_shopping"></i>
+                </div>
+                <div class="shopping">
+                  <ul class="list-group shopping-cart d-flex justify-content-end">
+                    <li class="list-group-item">SHOPPING CART
+                    </li>
+                  </ul>
+                  <div class="d-print-inline-block price-item d-flex justify-content-start">
+                    <div class="item">3 items</div>
+                    <div class="price">$74.00</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-4 col-sm-4 col-9 order-lg-2 order-md-3 order-sm-3 order-2">
                   <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-end">
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav nav-tabs">
-                          <li class="nav-item one">
+                      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="nav nav-tabs flex-sm-column flex-md-column flex-column flex-lg-row">
+                          <li class="nav-item one d-flex justify-content-end">
                             <a class="nav-link" href="#">home</a>
                           </li>
-                          <li class="nav-item dropdown two">
+                          <li class="nav-item dropdown two d-flex justify-content-end">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">product</a>
                             <div class="dropdown-menu">
                               <a class="dropdown-item" href="#">Action</a>
@@ -84,7 +100,7 @@
                               <a class="dropdown-item" href="#">Separated link</a>
                             </div>
                           </li>
-                          <li class="nav-item dropdown three">
+                          <li class="nav-item dropdown three d-flex justify-content-end">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">pages</a>
                             <div class="dropdown-menu">
                               <a class="dropdown-item" href="#">Action</a>
@@ -94,31 +110,17 @@
                               <a class="dropdown-item" href="#">Separated link</a>
                             </div>
                           </li>
-                          <li class="nav-item four">
+                          <li class="nav-item four d-flex justify-content-end">
                             <a class="nav-link" href="#">about</a>
                           </li>
-                          <li class="nav-item five">
+                          <li class="nav-item five d-flex justify-content-end">
                             <a class="nav-link" href="#">blog</a>
                           </li>
-                          <li class="nav-item six">
+                          <li class="nav-item six d-flex justify-content-end">
                             <a class="nav-link" href="#">contact</a>
                           </li>
-                          <li class="nav-item seven">
-                            <i class=" fas fa-search">     
-                            </i>
-                          </li>
                         </ul>
-                        <div class="shopping-cart position-relative ">
-                          <i class="fas fa-shopping-bag position-absolute icon_shopping"></i>
-                          <ul class="list-group shopping-cart d-flex justify-content-end">
-                            <li class="list-group-item">SHOPPING CART
-                            </li>
-                          </ul>
-                          <div class="d-print-inline-block price-item d-flex justify-content-start">
-                            <div class="item">3 items</div>
-                            <div class="price">$74.00</div>
-                          </div>
-                        </div>
+                        
                       </div>
                       
                   </nav>
@@ -133,7 +135,7 @@
   <section class="sales-a">
       <div class="container">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
               <div class="card text-white-a">
                   <img class="card-img rounded-0" src="https://placeimg.com/589/563/any" alt="Card image">
                   <div class="card-img-overlay newCollection position-absolute">
@@ -147,7 +149,7 @@
               </div>
             </div>
 
-            <div class="col-sm-3">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
               <div class="card text-white-b">
                   <img class="card-img rounded-0" src="https://placeimg.com/276/563/any" alt="Card image">
                   <div class="card-img-overlay sales">
@@ -166,7 +168,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
               <div class="card text-white-c">
                   <img class="card-img rounded-0" src="https://placeimg.com/294/275/any" alt="Card image">
                   <div class="card-img-overlay">
@@ -206,12 +208,12 @@
       <div class="container">
           <div class="row">
 
-              <div class="col-sm-4">
+              <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                   <div class="card text-white ">
-                      <img class="card-img rounded-0" src="https://placeimg.com/414/223/any" alt="Card image">
+                      <img class="card-img rounded-0 img-a" src="https://placeimg.com/414/223/any" alt="Card image">
                       <div class="card-img-overlay">
                         <h4 class="card-title chairs">Chairs</h4>
-                        <h3>ZIO DINING CHAIR    </h3>
+                        <h3 class="text-right">ZIO DINING CHAIR    </h3>
                         <div class="shop-now-white position-absolute">
                           <button type="button" class="btn"><a href="#">SHOP NOW
                             <i class="card-text float-right fas fa-chevron-right"></i>
@@ -220,7 +222,7 @@
                       </div>
                     </div>
                     <div class="card text-white">
-                      <img class="card-img rounded-0" src="https://placeimg.com/414/334/any" alt="Card image">
+                      <img class="card-img rounded-0 img-b" src="https://placeimg.com/414/334/any" alt="Card image">
                       <div class="card-img-overlay">
                         <h4 class="card-title">Accessories / Lighting</h4>
                         <h3>TOTEM FLOOR LAMP</h3>
@@ -233,7 +235,7 @@
                     </div>
               </div>
 
-              <div class="col-sm-8">
+              <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
                   <div class="card text-white">
                       <img class="card-img rounded-0" src="https://placeimg.com/765/579/any" alt="Card image">
                       <div class="card-img-overlay">
@@ -257,7 +259,7 @@
   <section id="breadcrumb">
       <div class="container">
         <div class="row">
-            <div class="col-sm-10">
+            <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                       <li class="breadcrumb-item dark" aria-current="page"><a href="#">FEATURED</a></li>
@@ -266,7 +268,7 @@
                     </ol>
                   </nav>
             </div>
-            <div class="col-sm-2 text-right">
+            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 text-right">
                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-secondary">
                       <input type="radio" name="options" id="option2" autocomplete="off">
@@ -444,9 +446,10 @@
         </div>
 
         <div class="col-sm-4 col-md-4 col-lg">
-          <div class="card bg-dark text-white">
+          <div class="card bg-dark text-white show">
             <img src="https://placeimg.com/213/213/any" class="card-img" alt="...">
             <div class="card-img-overlay">
+              
               <i class="fas fa-hand-pointer fs-12px"></i>
               <ul class="position-absolute cart list-group-a list-group list-group-horizontal card-title text-center d-flex justify-content-center nth-of-type-keyword">
                 <li class="list-group-item item-a">
@@ -544,7 +547,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 d-flex justify-content-center">
-          <ul class="list-group list-group-horizontal-sm list-group-horizontal">
+          <ul class="list-group list-group-horizontal-md list-group-horizontal-lg list-group-horizontal">
             <li class="list-group-item"><a href="#"><img src="images/devon.png" alt=""></a></li>
             <li class="list-group-item"><a href="#"><img src="images/gan.png" alt=""></a></li>
             <li class="list-group-item"><a href="#"><img src="images/artek.png" alt=""></a></li>
