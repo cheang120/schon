@@ -15,6 +15,7 @@
     padding: 5px;
     font-size: 10px;
     line-height: 1;
+    bottom: 2%;
 }
 .pl-5{
     padding-left: 5px;
@@ -744,6 +745,9 @@ body .list-group-item a {
     font-weight: 600;
     font-size: 16px;
 }
+.best-seller .col-sm-4 .card{
+    cursor: pointer;
+}
 
 .best-seller .euro {
     font-size: 12px;
@@ -987,27 +991,26 @@ body .list-group-item a {
 #footer .contact .col-sm-4 li{
     padding-top: 0;
 }
-#footer .contact .col-sm-4 li:first-child {
-    padding-top: .75rem;
-    font-size: 1.1rem;
-    letter-spacing: 1px;
+#footer .contact .col-sm-4 li{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #footer .contact .col-sm-4.first  {
     padding-left: 2rem;
 }
-#footer .contact .col-sm-5 div.sign {
+#footer .contact .col-sm-4 div.sign {
     padding: 0.75rem 1.25rem;
     text-align: right;
 }
 
-#footer .contact .col-sm-5 div.sign a {
+#footer .contact .col-sm-4 div.sign a {
     text-decoration: none;
     color: rgb(87,87,87);
     letter-spacing: 1px;
 }
 
-#footer .contact .col-sm-5 .input-group {
+#footer .contact .col-sm-4 .input-group {
     padding: 1.25rem;
     padding-left: 0;
 }
@@ -1219,6 +1222,9 @@ body .list-group-item a {
     }
     .best-seller .col-sm-2 {
         width: 20%;
+    }
+    #footer .contact .col-sm-4.first {
+        padding-left: 1rem;
     }
 }
 
@@ -1604,7 +1610,7 @@ body .list-group-item a {
         left: 0;
         bottom: 0;
         height: 2rem;
-        border: 1px solid rgb(242,242,242);
+        border: none;
     }
     .best-seller .list-group-b{
         bottom: 10%;
@@ -1786,7 +1792,7 @@ body .list-group-item a {
         left: 0;
         bottom: 0;
         height: 2rem;
-        border: 1px solid rgb(242,242,242);
+        border: none;
     }
  }
  
