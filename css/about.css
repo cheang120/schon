@@ -867,8 +867,16 @@ img{
 .for_slick_slider .items.one .pic-first {
     margin-right: 12px;
 }
+.for_slick_slider .items.one .pic-second {
+    position: absolute;
+} 
 .for_slick_slider .items.one .pic-third {
     margin-top: 14px;
+    width: 503px;
+    height: 172px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 /* items one end  */
