@@ -279,7 +279,7 @@ body .list-group-item a {
 
  .nav-tabs{
      border-bottom: none;
-     padding: 10px 25px 10px;
+     padding: 0;
  }
 
  
@@ -1063,6 +1063,12 @@ body .list-group-item a {
 .copyright div b {
     color: black;
 }
+#header .col-lg-2 {
+    padding-left: 0;
+}
+#header .col-lg-3 {
+    padding-right: 0;
+}
 
 
 
@@ -1070,14 +1076,20 @@ body .list-group-item a {
 @media (max-width:767px) {
     .shopping {
         padding-left: 5%;
-        width: 60%;
+        width: 64%;
     }
     .search {
         width: 30%;
     }
-
+    
+    #header #logo {
+        line-height: 3;
+    }
+    #header #logo img {
+        width: 100%;
+    }
     .navbar.navbar-expand-lg.navbar-light {
-        margin: 5%;
+        margin: 12px 0;
     }
     .sales-a .card-img-overlay.newCollection {
         top: 40%;
@@ -1230,7 +1242,7 @@ body .list-group-item a {
 
 @media (min-width: 768px) and (max-width :991px) { 
     #header .search {
-        width: 30%;
+        width: 22%;
     }
     .navbar.navbar-expand-lg.navbar-light {
         margin: 5%;
@@ -1264,9 +1276,20 @@ body .list-group-item a {
         padding-left: 0;
         padding-right: 0;
     }
+    #header #logo {
+        line-height: 4;
+    }
     
     #header .list-group li {
-        width: 200px;
+        width: 140px;
+    }
+    .item {
+        width: 60px;
+        padding-right: 0;
+    }
+    .price {
+        width: 60px;
+        padding-left: 10px;
     }
     .sales-a .card-img-overlay.newCollection {
         padding-top: 35%;
@@ -1274,6 +1297,19 @@ body .list-group-item a {
     .card-img-overlay.sales .card-title{
         padding: 5px 0px 17px;
         letter-spacing: 0.5px;
+    }
+    .sales-a .card.text-white-b {
+        padding: 1px;
+        height: 100%;
+    }
+    .sales-a .card.text-white-b img{
+        height: 100%;
+    }
+    .sales-a .card.text-white-a {
+        height: 100%;
+    }
+    .sales-a .card.text-white-a img {
+        height: 100%;
     }
     .sales h3 {
         width: 200;
@@ -1412,10 +1448,12 @@ body .list-group-item a {
     .shopping {
         display: table;
         line-height: 1.5em;
-        padding-left: 5%;
+        padding-left: 0%;
     }
     .price-item {
         font-size: small;
+        width: 140px;
+        padding-left: 14px;
     }
     
     .best-seller .row:last-child .col-sm-4:first-child h6 {
@@ -1438,15 +1476,24 @@ body .list-group-item a {
 
 @media (min-width: 992px) and (max-width :1199px) { 
     #header .search {
-        width: 30%;
+        width: 40%;
+        padding-right: 10%;
+    }
+    #header #logo {
+        line-height: 4.5;
+    }
+    #header .collapse.navbar-collapse {
+        line-height: 3.5;
+        flex-direction: column;
     }
     #header .fas.fa-search {
         line-height: 4.5;
         padding-left: 0%;
     }
+    
     .shopping {
-        width: 70%;
-        padding-left: 5%;
+        width: 58%;
+        padding-left: 0;
     }
     .list-group.shopping-cart{
         width: 100%;
@@ -1467,6 +1514,7 @@ body .list-group-item a {
     #header .col-sm-7 .nav-tabs {
         padding: 10px 0px 10px;
     }
+    
 
     .sales-a .col-sm-3:last-child h5,
     .sales-a .col-sm-3:last-child p {
@@ -1587,16 +1635,20 @@ body .list-group-item a {
     }
     
     .item {
-        width: 5rem;
+        width: 4rem;
     }
     #header .col-sm-10 ul.nav.nav-tabs {
         margin-left: -3%;
     }
     #header .list-group {
-        width: 10rem;
+        width: 100%;
     }
     .price-item {
         font-size: small;
+        width: 130px;
+    }
+    .item {
+        padding-right: 0px;
     }
     .best-seller .row:last-child .col-sm-4:first-child h6 {
         font-size: 0.5rem;
@@ -1626,9 +1678,20 @@ body .list-group-item a {
         line-height: 4.5;
         padding-left: 0%;
     }
+    #header #logo {
+        line-height: 4.5;
+    }
+    #header .collapse.navbar-collapse {
+        line-height: 3.5;
+        flex-direction: column;
+    }
     .shopping {
-        width: 75%;
+        width: 55%;
         padding-left: 5%;
+    }
+    .item {
+        padding-right: 16px;
+        padding-left: 8px;
     }
     .search {
         width: 25%;
