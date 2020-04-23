@@ -292,8 +292,8 @@ body .list-group-item a {
 
 .icon_shopping {
     left: 23%;
-    line-height: 2;
-    font-size: 2rem;
+    line-height: 3;
+    font-size: 21px;
 }
 
 
@@ -892,6 +892,15 @@ body .list-group-item a {
     width: 16.6666666%;
 }
 
+.best-seller .show .card-img-overlay{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.best-seller .show .card-img-overlay:hover{
+    opacity: 1;
+}
+
+
 /* footer  */
 
 #footer {
@@ -1288,7 +1297,7 @@ body .list-group-item a {
         padding-right: 0;
     }
     .price {
-        width: 60px;
+        width: 40%;
         padding-left: 10px;
     }
     .sales-a .card-img-overlay.newCollection {
@@ -1449,11 +1458,12 @@ body .list-group-item a {
         display: table;
         line-height: 1.5em;
         padding-left: 0%;
+        margin-left: 10px;
     }
     .price-item {
         font-size: small;
         width: 140px;
-        padding-left: 14px;
+        padding-left: 0;
     }
     
     .best-seller .row:last-child .col-sm-4:first-child h6 {
@@ -1691,7 +1701,7 @@ body .list-group-item a {
     }
     .item {
         padding-right: 16px;
-        padding-left: 8px;
+        padding-left: 0;
     }
     .search {
         width: 25%;
