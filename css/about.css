@@ -4,6 +4,11 @@ html {
     margin: 0 auto;
     width: 1800px;
 }
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 #header .container{
     padding: 0;
 }
@@ -94,7 +99,9 @@ body .list-group-item a {
      margin-top: 0;
  }
 
-
+#header .col-sm-4:last-child .plr{
+    padding: 0 10px;
+}
 
 .col-sm-7 .navbar {
     line-height: 2;
@@ -199,6 +206,9 @@ body .list-group-item a {
     font-weight: 300;
     letter-spacing: 1px;
 }
+.team .col-12{
+    height: 100%;
+}
 .team .card img {
     width: 100%;
     height: auto;
@@ -289,8 +299,12 @@ body .list-group-item a {
 
 
 /* workspace start  */
+
 .workspace {
     position: relative;
+}
+.workspace .col-12 {
+    padding: 0;
 }
 img{
     width: 180px;
@@ -694,12 +708,7 @@ img{
     html {
         max-width: 100%;
     }
-    #header .container {
-        max-width: 540px;
-    }
-    .container {
-        min-width: 540px;
-    }
+   
     #header .col-sm-2:last-child {
         line-height: 3.7;
         padding-left: 0;
@@ -760,12 +769,19 @@ img{
     #header .col-sm-4 a:last-child {
         text-decoration: none;
         color: rgb(75,75,75);
-        letter-spacing: 2px;
+        letter-spacing: 0;
         font-size: 1.5rem;
+        padding: 15px 0;
     }
+
     #header .col-sm-4:first-child a {
-        font-size: 1rem;
+        font-size: 0.5rem;
+        padding: 9px 0;
     }
+    #header .list-group .price-item a{
+        padding: 15px 0;
+    }
+    #header .col-sm-4:last-child 
     
     /* about start  */
     .about {
@@ -827,6 +843,7 @@ img{
 
 
     /* workspace start  */
+
 .workspace {
     position: relative;
 }
@@ -1116,8 +1133,9 @@ img{
     }
     #header .list-group, .price-item {
         padding-left: 0;
-        width: 9rem;
+        width: 6rem;
     }
+    
     #header .list-group, .price-item .item {
         padding-right: 0;
         line-height: 2;
