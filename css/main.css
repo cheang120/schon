@@ -23,6 +23,11 @@
 .pr-5 {
     padding-right: 5px;
 }
+.row {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
 .circle-gr {
@@ -371,7 +376,7 @@ body .list-group-item a {
 
 .newCollection .card-text-1 {
     
-    width: 300px;
+    width: 100%;
     margin: 0;
     padding-left: 10px;
     padding-top: 5px;
@@ -1084,6 +1089,12 @@ body .list-group-item a {
 
 
 @media (max-width:767px) {
+    #header .col-lg-7 {
+        padding: 0;
+    }
+    .price-item {
+        display: none!important;
+    }
     .shopping {
         padding-left: 5%;
         width: 64%;
@@ -1101,10 +1112,15 @@ body .list-group-item a {
     .navbar.navbar-expand-lg.navbar-light {
         margin: 12px 0;
     }
+    .newCollection .card-text-2 {
+        width: 100%;
+        
+    }
     .sales-a .card-img-overlay.newCollection {
-        top: 40%;
-        left: 10%;
+        top: 2%;
+        left: 1%;
         padding: 0;
+        width: 99%;
     }
     .sales-a .card.text-white-a{
         margin-bottom: 7%;
@@ -1148,10 +1164,23 @@ body .list-group-item a {
         height: 9.5rem;
     }
     .sales .discount {
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
         bottom: 17%;
         right: 5%;
+    }
+    .sales .discount p:first-child {
+        padding-top: 28%;
+    }
+    .sales-a .discount p:last-child {
+        font-size: 16px;
+    }
+    .sales-b .col-sm-12:last-child h1 {
+        font-size: 26px;
+    }
+    .sales-b .col-12:last-child p {
+        margin-bottom: 0;
+        line-height: 1.2;
     }
     .card.text-white-d p {
         font-size: 1rem;
@@ -1176,11 +1205,14 @@ body .list-group-item a {
         margin-bottom: 5%;
     }
     #breadcrumb .col-sm-10 {
-        width: 80%;
+        width: 68%;
     }
     #breadcrumb .col-sm-2 {
         width: 20%;
     }
+    .breadcrumb-item+.breadcrumb-item {
+    padding-left: 0;
+}
     .sales h3 {
         width: 200;
         margin: 0;
@@ -1203,22 +1235,28 @@ body .list-group-item a {
         bottom: 1%;
     }
     .newCollection .card-title {
-        width: 17rem;
-        height: 2.2rem;
-        background-color: #535353;
+        width: 80%;
+        height: auto;
+        background-color:rgba(0,0,0,0);
         margin: 0;
-        padding: 5px 10px 17px;
-        font-size: 16px;
+        padding: 2%;
+        font-size: 12px;
         font-weight: 300;
         letter-spacing: 1px;
         line-height: 1.7;
     }
     .newCollection .new {
-        width: 10rem;
+        width: 80%;
     }
     .newCollection .collection {
         font-weight: 800;
-        width: 15rem;
+        width: 80%;
+    }
+    .newCollection .new {
+        font-size: 2rem;
+    }
+    .newCollection .collection {
+        font-size: 2rem;
     }
     .newCollection .price {
         width: 10rem;
@@ -1247,6 +1285,13 @@ body .list-group-item a {
     }
     #footer .contact .col-sm-4.first {
         padding-left: 1rem;
+    }
+    .copyright img {
+        width: 10rem;
+        height: 1rem;
+    }
+    #footer .col-sm-7 {
+        margin-bottom: 10%;
     }
 }
 
