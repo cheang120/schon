@@ -747,7 +747,7 @@ img{
     }
     .navbar.navbar-expand-lg.navbar-light {
         padding: 0;
-        margin: 7.2% 0;
+        margin: 7.2;
         height: auto;
     }
     #header .col-sm-4 a:last-child{
@@ -1106,18 +1106,8 @@ img{
         padding: 10px 0;
     }
 
-    #header .col-lg-7 ul .one, .two, .three {
-        width: auto;
-    }
-    #header .col-lg-7 ul .two .nav-link,
-    #header .col-lg-7 ul .three .nav-link
-     {
-        color: rgb(59,59,59);
-        font-size: 1rem;
-        padding: 0;
-    }
-    #header .col-lg-7 ul .nav-link {
-        line-height: 2;
+    #header .col-sm-7 ul .one, .two, .three {
+        width: 33.33333%;
     }
     #header .col-sm-7 ul .four, .five, .six {
         width: 25%;
@@ -1388,7 +1378,7 @@ img{
     }
     #header #navbarSupportedContent ul {
         display: inline-block;
-        margin-top: 2rem;
+        margin-top: 10%;
         border-bottom: 0;
     }
     #header .col-4 {
