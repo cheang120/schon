@@ -934,9 +934,7 @@ body .list-group-item a {
 
 @media (min-width: 1200px) { 
    
-    #header .container {
-        max-width: 1800px;
-    }
+    
     
     /* header start */
     #header .col-lg-7 {

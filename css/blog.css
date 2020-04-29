@@ -2,7 +2,6 @@ html {
     margin: 0;
     padding: 0;
     margin: 0 auto;
-    width: 1800px;
 }
 
 .row {
@@ -78,7 +77,7 @@ body .list-group-item a {
  }
 
 #header .col-sm-4:last-child .plr{
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 .col-sm-7 .navbar {
@@ -153,9 +152,7 @@ body .list-group-item a {
     color: white;
     text-align: center;
     padding-top: 1%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    
 }
 
 .sidebar_content .date h3, p {
@@ -666,18 +663,22 @@ body .list-group-item a {
     .blog-list .row div h1 {
         font-weight: 200;
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 1.3rem;
         letter-spacing: 1px;
     }
     .blog-list .row ul a {
         text-transform: capitalize;
         color: rgb(111,111,111);
+        padding: 10px;
     }
     .blog-list .row ul a i {
         color: rgb(111,111,111);
     }
+    .blog-list .nav-link {
+        font-size: 1rem;
+    }
 
-
+    
 
 
 
@@ -710,12 +711,25 @@ body .list-group-item a {
     .sidebar .popular:after {
         right: 45%;
     }
-
+    .sidebar_content .card-body h5 {
+        letter-spacing: 0px;
+        color: rgb(73,73,73);
+        margin-bottom: 0;
+        margin-top: 5%;
+        font-size: 0.8rem;
+    }
     .sidebar_content .date {
         width: 100%;
-        height: 11%;
+        height: 38px;
+        top: 36.7%;
         display: flex;
         justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 1%;
+        background-color: rgb(145,145,145);
+        color: white;
+        text-align: center;
     }
 
     .sidebar_content .date h3 {
@@ -728,17 +742,25 @@ body .list-group-item a {
         font-size: 1rem;
         margin-right: 2%;
     }
-    .sidebar_content .card-body h5 {
-        margin-top: 5%;
-    }
     .sidebar .categories,
     .sidebar .tags,
     .sidebar .popular {
         text-align: center;
     }
+    .sidebar_content .card-body {
+        padding-top: 9%;
+    }
 
+    .sidebar_content .card-body {
+        position: relative;
+        padding-left: 5%;
+        padding-top: 0%;
+    }
+    .sidebar_content .card-body ul {
+        display: flex;
+        flex-flow: column;
 
-
+    }
 
     /* .sidebar_content end  */
 /* footer start  */
@@ -973,7 +995,25 @@ body .list-group-item a {
         right: 0;
     }
 
+   
+    
+    .sidebar_content .card-body {
+        position: relative;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
 
+    .sidebar_content .date {
+        float: left;
+    }
+    .sidebar_content .content .card .card-body {
+        float: right;
+        width: 89%;
+        padding-left: 5%;
+    }
+    .content .card {
+        display: inline-block;
+    }
   /* copyright start  */
     .copyright img {
         width: ;
@@ -1114,6 +1154,18 @@ body .list-group-item a {
 
     /* blog-list end  */
 
+    .sidebar_content .date {
+        float: left;
+    }
+    .sidebar_content .content .card .card-body {
+        float: right;
+        width: 87%;
+        padding-left: 5%;
+    }
+    .content .card {
+        display: inline-block;
+    }
+
 
     
   
@@ -1124,9 +1176,7 @@ body .list-group-item a {
 
 @media (min-width: 1200px) { 
    
-    #header .container {
-        max-width: 1800px;
-    }
+    
     
     /* header start */
     #header .col-lg-7 {
@@ -1239,8 +1289,21 @@ body .list-group-item a {
     }
     /* blog-list end  */
 
-   
+    /* sidebar_content start  */
+    .sidebar_content .date {
+        float: left;
+    }
+    .sidebar_content .content .card .card-body {
+        float: right;
+        width: 89%;
+        padding-left: 5%;
+    }
+    .content .card {
+        display: inline-block;
+    }
 
+    /* sidebar_content end  */
+    
 
     #footer .support p {
         letter-spacing: 0.5px;
