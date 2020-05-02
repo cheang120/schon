@@ -536,7 +536,7 @@ body .list-group-item a {
         padding: 0;
         margin: 7.2;
         height: auto;
-        margin: 17% 0px;
+        margin: 1.2rem 0px;
     }
     #header .col-sm-4 a:last-child{
         text-decoration: none;
