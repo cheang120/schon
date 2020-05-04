@@ -646,9 +646,10 @@ body .list-group-item a {
     /* search-bar end */
 
 
-    /* ideas start  */
-    .card-columns {
-        column-count: 1;
+    /* type start  */
+
+    .type .type-title {
+        margin-bottom: 5%;
     }
     
 
@@ -656,7 +657,32 @@ body .list-group-item a {
 
 
 
+
+    /* type end  */
+
+
+    /* ideas start  */
+    .card-columns {
+        column-count: 1;
+    }
+    .ideas .card-inside .date,
+    .ideas .card-inside .interaction{
+        position: unset;
+    }
+    
     /* ideas end  */
+
+    /* pagination start  */
+
+    .pagination ul li a {
+        padding: 8px 9px;
+    }
+
+
+
+
+
+    /* pagination end  */
 
 
   
@@ -866,6 +892,10 @@ body .list-group-item a {
     .card-columns {
         column-count: 2;
     }
+    .ideas .card-inside .date,
+    .ideas .card-inside .interaction {
+        top: 14.5rem;
+    }
 
 
 
@@ -1044,8 +1074,12 @@ body .list-group-item a {
     .card-columns {
         column-count: 3;
     }
-
-
+    .ideas .card-inside .date {
+        top: 12.5rem;
+    }
+    .ideas .card-inside .interaction {
+        top: 12.5rem;
+    }
 
 
 
