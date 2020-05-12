@@ -372,13 +372,36 @@ body .list-group-item a {
 .sorting {
     padding-right: 15px;
 }
-.sorting ul .list-group-item:first-child {
+.sorting ul .one {
+    position: relative;
+    line-height: 40px;
+    color: #a1a1a1;
+    cursor: pointer;
+    padding: 0;
+    width: auto;
+    margin: 0 auto;
+}
+.sorting ul .one ul {
+    list-style: none;
+    padding-left: 0;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background:#fff;
     border: 1px solid rgb(216,216,216);
-    padding: 0 1rem;
-    border-radius: 30px;
-    height: 40px;
-    
-    
+    display: none;
+}
+.sorting ul .one ul.active {
+    display: block;
+}
+.sorting ul .one ul li {
+    padding: 15px 0 10px 10px;
+    cursor: pointer;
+}
+.sorting ul .one ul li:hover {
+    background-color: rgb(243,243,243);
 }
 .sorting ul .list-group-item:first-child button{
     height: 100%;
@@ -431,6 +454,10 @@ body .list-group-item a {
     color: rgb(117,117,117);
     font-size: 16px;
     font-weight: 300;
+}
+.product-list .card h5 a {
+    color: rgb(158,158,158);
+    text-decoration: none;
 }
 .product-list .card .card-body p {
     color: rgb(1,1,1);
@@ -809,7 +836,11 @@ body .list-group-item a {
         justify-content: center;
         margin-bottom: 5%;
     }
-    .sorting ul .list-group-item:first-child {
+    .sorting ul .one {
+        position: relative;
+        line-height: 40px;
+        color: #a1a1a1;
+        cursor: pointer;
         padding: 0;
         width: auto;
         margin: 0 auto;
