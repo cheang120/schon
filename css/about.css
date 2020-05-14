@@ -140,6 +140,71 @@ body .list-group-item a {
     border-bottom: 0px solid;
     vertical-align: 0;
 }
+.cart-items {
+    width: 300px;
+    right: 0;
+    top: 100%;
+}
+.cart-items h6 {
+    font-size: 12px;
+    letter-spacing: 0;
+    text-align: left;
+}
+.cart-items .col-md-8 .card-body {
+    padding: 0;
+}
+.cart-items .col-md-8 .card-body .card-text li {
+    height: 30px;
+    line-height: 1;
+}
+.cart-items .col-md-8 .card-body p {
+    line-height: 2;
+    text-align: left;
+}
+.cart-items .card-img {
+    width: 74px!important;
+    height: 74px;
+}
+.cart-items .col-md-8 {
+    padding: 17px 13px;
+}
+.cart-items .card {
+    margin-bottom: 0!important;
+}
+.cart-items {
+    opacity: 0;
+}
+.cart:hover .cart-items{
+    opacity: 1;
+    transition: opacity 1s;
+}
+.cart-items i {
+    font-size: 12px!important;
+    line-height: 2!important;
+}
+.cart-items .price{
+    font-size: 16px!important;
+    line-height: 1.5!important;
+    margin-right: 5rem;
+    margin-left: 0.5rem;
+    height: 23px!important;
+}
+.cart-items .col-md-8 ul li:last-child i{
+    color: red;
+}
+.cart-items .col-md-8 ul li:last-child{
+    height: 23px!important;
+}
+.cart-items .col-md-8 ul li:first-child{
+    height: 23px!important;
+}
+
+.cart-items p {
+    font-size: 14px;
+}
+.cart-items h6 {
+    margin-bottom: 5px;
+}
 
 /* header end  */
 
@@ -2000,19 +2065,19 @@ img{
         margin-left: 0;
         border-bottom: none;
     }
-    #header .col-sm-4 .list-group {
+    #header .col-sm-4 .list-group:first-child {
         width: 100%;
         line-height: 9;
         padding-right: 15px;
     }
-    #header .col-sm-4 .list-group a {
+    #header .col-sm-4 .list-group:first-child a {
         padding-left: 10px;
         padding-right: 10px;
         text-decoration: none;
-    color: rgb(59,59,59);
-    letter-spacing: 2px;
-    font-size: 0.2rem;
-    padding: 0.5rem 0.3rem;
+        color: rgb(59,59,59);
+        letter-spacing: 2px;
+        font-size: 0.2rem;
+        padding: 0.5rem 0.3rem;
     }
     #header .col-sm-4:last-child a i {
         font-size: 1.3rem;
