@@ -15,7 +15,7 @@
     
     
 </head>
-<body id="wrap">
+<body>
  
     <!-- header start -->
   
@@ -82,90 +82,10 @@
           <ul class="list-group list-group-horizontal d-flex justify-content-center interaction">
             <li class="list-group-item"><a class="nav-link text-md-right text-center" href="#"><i class=" fas fa-search"></i></a></li>
             <li class="list-group-item plr"><a class="nav-link text-md-right text-center" href="#"><i class="far fa-heart"></i></a></li>
-            <li class="list-group-item">
-              <a class="nav-link text-md-right text-center position-relative cart" href="#">
-                <i class="fas fa-shopping-basket"></i>
-                <ul class="list-group position-absolute cart-items">
-                  <li class="list-group-item">
-                    <div class="card mb-3" >
-                      <div class="row no-gutters">
-                        <div class="col-md-4">
-                          <img src="https://placeimg.com/74/74/any" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                          <div class="card-body">
-                            <h6 class="card-title">Marvelous Modern 3 Seater</h6>
-                            <div class="card-text">
-                              <ul class="list-group list-group-horizontal">
-                                <li class="list-group-item"><i class="fas fa-euro-sign"></i> </li>
-                                <li class="list-group-item price">599,00</li>
-                                <li class="list-group-item"><i class="fas fa-times"></i></li>
-                              </ul>
-                            </div>
-                            <p class="card-text">Qty: 1</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item">
-                    <div class="card mb-3" >
-                      <div class="row no-gutters">
-                        <div class="col-md-4">
-                          <img src="https://placeimg.com/74/74/any" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                          <div class="card-body">
-                            <h6 class="card-title">Marvelous Modern 3 Seater</h6>
-                            <div class="card-text">
-                              <ul class="list-group list-group-horizontal">
-                                <li class="list-group-item"><i class="fas fa-euro-sign"></i> </li>
-                                <li class="list-group-item price">599,00</li>
-                                <li class="list-group-item"><i class="fas fa-times"></i></li>
-                              </ul>
-                            </div>
-                            <p class="card-text">Qty: 1</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item">
-                    <div class="card mb-3" >
-                      <div class="row no-gutters">
-                        <div class="col-md-4">
-                          <img src="https://placeimg.com/74/74/any" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                          <div class="card-body">
-                            <h6 class="card-title">Marvelous Modern 3 Seater</h6>
-                            <div class="card-text">
-                              <ul class="list-group list-group-horizontal">
-                                <li class="list-group-item"><i class="fas fa-euro-sign"></i> </li>
-                                <li class="list-group-item price">599,00</li>
-                                <li class="list-group-item"><i class="fas fa-times"></i></li>
-                              </ul>
-                            </div>
-                            <p class="card-text">Qty: 1</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="list-group-item">
-                    <ul class="list-group list-group-horizontal">
-                      <li class="list-group-item">
-                        <p class="card-text">Sub Total</p>
-                      </li>
-                      <li class="list-group-item">
-                        <i class="fas fa-euro-sign"></i>
-                      </li>
-                      <li class="list-group-item">
-                        799,00
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
+            <li class="list-group-item basket">
+              <a class="nav-link text-md-right text-center position-relative cart btn btn-primary" data-toggle="modal" data-target="#exampleModal" href="#">
+                
+                  <i class="fas fa-shopping-basket"></i>
                 
               </a>
             </li>
@@ -173,9 +93,99 @@
         </div>
       </div> 
     <!-- </div> -->
+    
           
   </div>
   <!-- header end -->
+
+  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div id="triangle-right"></div>
+        <ul class="list-group item-list">
+          <li class="list-group-item">
+            <div class="card mb-3" >
+              <div class="row no-gutters">
+                <div class="col-md-4 col-sm-4">
+                  <img src="https://placeimg.com/74/74/any" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8 col-sm-8">
+                  <div class="card-body">
+                    <h6 class="card-title">Marvelous Modern 3 Seater</h6>
+                    <h6 class="card-text">
+                      <i class="fas fa-euro-sign"></i> 
+                      <p>599,00 </p>  
+                      <i class="fas fa-times"></i>
+                    </h6>
+                    <h6>Qty: 1</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="card mb-3" >
+              <div class="row no-gutters">
+                <div class="col-md-4 col-sm-4">
+                  <img src="https://placeimg.com/74/74/any" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8 col-sm-8">
+                  <div class="card-body">
+                    <h6 class="card-title">Marvelous Modern 3 Seater</h6>
+                    <h6 class="card-text">
+                      <i class="fas fa-euro-sign"></i> 
+                      <p>599,00 </p>  
+                      <i class="fas fa-times"></i>
+                    </h6>
+                    <h6>Qty: 1</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="card mb-3" >
+              <div class="row no-gutters">
+                <div class="col-md-4 col-sm-4">
+                  <img src="https://placeimg.com/74/74/any" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8 col-sm-8">
+                  <div class="card-body">
+                    <h6 class="card-title">Marvelous Modern 3 Seater</h6>
+                    <h6 class="card-text">
+                      <i class="fas fa-euro-sign"></i> 
+                      <p>599,00 </p>  
+                      <i class="fas fa-times"></i>
+                    </h6>
+                    <h6>Qty: 1</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item price">
+            <div class="d-flex">
+              <p>Sub Total</p>
+              <p><i class="fas fa-euro-sign dollor"></i></p>
+              <p>799,00</p>
+            </div>
+            
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer d-flex justify-content-between">
+        <button type="button" class="btn btn-outline-dark" >VIEW CART</button>
+        <button type="button" class="btn btn-outline-dark">CHECKOUT</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal  -->
 
   <section class="about">
     <div class="container">
