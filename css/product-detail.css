@@ -375,79 +375,87 @@ body .list-group-item a {
 /* chairs end  */
 
 /* details start  */
-
-.details #form1 {
+.details {
+    margin-bottom: 5rem;
+}
+.details .nav.nav-tabs {
+    height: 2.5rem;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
-.details .control {
-    border-bottom: 1px solid rgb(200,200,200);
-}
-.control input {
-    padding: 15px 30px;
-    border: none;
-    background-color: white;
-    color: rgb(163,163,163);
-}
-.content div{
-    color: rgb(218,218,218);
-}
-.control input:hover {
-    color: rgb(23,23,23);
+.details .nav.nav-tabs li a {
+    color: rgb(155,155,155);
     text-decoration: none;
-    border-bottom: 1px solid rgb(23,23,23);
 }
-.control input:active {
-    color: rgb(23,23,23);
-    text-decoration: none;
-    border-bottom: 1px solid rgb(23,23,23);
+.details .nav.nav-tabs li:active {
+    border-bottom: 1px solid black;
 }
-.content {
-    padding-top: 3%;
+.details .nav.nav-tabs li:active a{
+    color: black;
 }
-.related{
-    margin-top: 5%;
+.details .nav.nav-tabs li:hover {
+    border-bottom: 1px solid black;
 }
-.related .col-sm-4 .card {
-    cursor: pointer;
-    margin-bottom: 15px;
+.details .nav.nav-tabs li:hover a{
+    color: black;
 }
-.related .card h3.new {
-    background-color: #000000;
-    left: 0;
-    top: 10%;
-    width: 48px;
-    height: 25px;
-    font-size: 12px;
-    text-align: center;
-    line-height: 2.1;
+.details .nav.nav-tabs li:visited a{
+    color: black;
 }
-.related .card h3.new:last-child {
-    top: 20%;
+
+.details .nav.nav-tabs li:nth-child(2){
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
-.related .row:last-child .col-sm-4:first-child h6 {
-    font-size: 0.5rem;
-    color: rgb(200,167,96);
-    bottom: 5%;
+.details .tab-content p{
+    color: rgb(170,170,170);
 }
-.related .discount-10 {
-    background-color: rgb(177,203,41);
-    color: white;
-    left: 0;
-    top: 14px;
-    width: 60px;
-    height: 25px;
-    font-size: 0.7rem;
-    margin-bottom: 0;
-    font-weight: 300;
-    text-align: center;
-    line-height: 2.3;
-    letter-spacing: 1px;
-}
+
 
 
 /* details end  */
 
+/* related start  */
+.related .card-img-overlay h6  {
+    font-size: 10px;
+    bottom: 0.5rem;
+}
+.related .card-img-overlay h6 i{
+    color: rgb(200,167,96);
+}
+.related .card-img-overlay h6 i:last-child{
+    color: rgb(221,221,221);
+}
+.related .new {
+    width: 3rem;
+    height: 1.5rem;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.7;
+    left: 0;
+}
+.related .new:last-child {
+    top: 3rem;
+}
+.related .discount-15 {
+    font-size: 12px;
+    background-color: rgb(177,203,41);
+    height: 1.5rem;
+    left: 0;
+    width: 3.5rem;
+    text-align: center;
+    line-height: 2;
+    top: 1.5rem;
+}
+
+
+
+
+/* related end  */
 
 /* footer  */
 
@@ -877,6 +885,10 @@ body .list-group-item a {
     }
     .chairs .col-lg-6 .interaction {
         margin-top: 3%;
+    }
+
+    .chairs .col-lg-6:last-child h1 {
+        font-size: 20px;
     }
     #footer .container {
         padding-left: 10%;
