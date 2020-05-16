@@ -224,6 +224,7 @@ body .list-group-item a {
     width: 111px;
     height: 36px;
     border-radius: 18px;
+    line-height: 2;
 }
 .modal-footer .btn:last-child {
     color: white;
@@ -569,14 +570,6 @@ img{
     background: rgba(0,0,0,0.64);
 }
 
-.workspace .for_slick_slider .items img {
-    
-    /* transition: all linear .4s; */
-}
-
-.workspace .for_slick_slider .slick-center img {
-    /* transform: scale(1.2); */
-}
 
 /* arrow start  */
 .workspace .arrow_prev {
