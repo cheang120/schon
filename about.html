@@ -179,8 +179,8 @@
         </ul>
       </div>
       <div class="modal-footer d-flex justify-content-between">
-        <a type="button" class="btn btn-outline-dark" href="">VIEW CART</a>
-        <a type="button" class="btn btn-outline-dark" href="">CHECKOUT</a>
+        <a type="button" class="btn btn-outline-dark" href="shopping-cart.html">VIEW CART</a>
+        <a type="button" class="btn btn-outline-dark" href="checkout.html">CHECKOUT</a>
       </div>
     </div>
   </div>
@@ -554,6 +554,13 @@
         mobileFirst: true,
         respondTo: 'window',
 
+      });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.fa-times').on('click',function(){
+        $(this).parents('.list-group-item').remove();
       });
     });
   </script>
