@@ -108,7 +108,7 @@ body .list-group-item a {
  }
 
 #header .col-sm-4:last-child .plr{
-    padding: 0 10px;
+    padding: 0 ;
 }
 
 .col-sm-7 .navbar {
@@ -149,7 +149,111 @@ body .list-group-item a {
     border-bottom: 0px solid;
     vertical-align: 0;
 }
+#header .interaction .basket .btn {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 6.5;
+    background-color: white;
+    border-color: white;
+}
+#header .interaction .list-group-item{
+    line-height: 7;
+}
+.interaction li:nth-child(2){
+    margin: 0;
+}
+.modal .item-list .card img {
+    width: 74px;
+    height: 74px;
 
+}
+.modal .item-list .card-body {
+    padding: 0;
+}
+.modal .item-list .card-body h6 {
+    margin-bottom: 5px;
+}
+.modal .item-list .card-body h6 i {
+    font-size: 10px;
+}
+.modal .item-list .card-body h6 i:last-child {
+    color: red;
+}
+.modal .item-list .card-body h6 p {
+    display: inline;
+    margin-right: 6rem;
+}
+.modal-content {
+    width: 24%;
+    position: absolute;
+    top: 5rem;
+    right: 0.2%;
+}
+
+.modal-dialog {
+    max-width: 100%;
+
+
+}
+.modal-content .card {
+    margin-bottom: 0!important;
+}
+.modal-content .modal-body {
+    padding: 0;
+}
+.modal-content .modal-body .card h6 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.modal-content .modal-body .card .col-md-8 {
+    padding-top: 6px;
+}
+.modal-content .modal-body .item-list .price .sub{
+    line-height: 3;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.modal-content .price .dollor {
+    margin-left: 7rem;
+    margin-right: 0.3rem;
+    font-size: 10px;
+    line-height: 4;
+}
+
+.modal-content .price p {
+    margin-bottom: 0;
+}
+.modal-content .modal-footer {
+    border-top: none;
+    padding: 0.3rem 1.25rem;
+    padding-bottom: 0.75rem;
+}
+.modal-footer>* {
+    margin: 0;
+}
+.modal-footer .btn {
+    width: 111px;
+    height: 36px;
+    border-radius: 18px;
+    line-height: 2;
+}
+.modal-footer .btn:last-child {
+    color: white;
+    background-color: black;
+}
+
+#triangle-right {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -0.6rem;
+    right: 0.4rem;
+    margin-right: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #ffffff transparent;
+}
 /* header end  */
 
 /* chairs start  */
@@ -173,6 +277,13 @@ body .list-group-item a {
 .chairs .pagination .slider img{
     width: 100px;
 
+}
+#header .interaction .list-group-item{
+    background-color: white;
+    display: flex;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .interaction .list-group-item{
     background-color: rgb(243,243,243);
@@ -297,7 +408,7 @@ body .list-group-item a {
     font-size: 0.9rem;
 }
 .price {
-    padding: 4% 0;
+    padding: 4% 1.25rem;
 }
 
 .price p{
@@ -307,11 +418,11 @@ body .list-group-item a {
     align-self: flex-end;
 }
 .price p:first-child {
-    font-size: 1.5rem;
-    color: rgb(1,1,1);
+    color: black;
+    line-height: 3;
 }
 .price p:last-child {
-    color: rgb(184,184,184);
+    color: black;
 }
 .quantity p {
     display: inline;
@@ -657,9 +768,7 @@ body .list-group-item a {
 
 
 @media (max-width: 767px) { 
-    html {
-        max-width: 100%;
-    }
+    
    
     #header .col-sm-2:last-child {
         line-height: 3.7;
@@ -741,12 +850,32 @@ body .list-group-item a {
     #header .list-group .price-item a{
         padding: 15px 0;
     }
-    #header .col-sm-4:last-child 
+    #header .interaction .basket .btn {
+        line-height: 1;
+    }
+    .modal-content {
+        width: 18rem;
+        top: 5rem;
+        right: 0;
+    }
+    #triangle-right{
+        display: none;
+    }
+    .slider-area img {
+        width: 100%;
+        height: 450px;
+    }
+    .price p:first-child {
+        margin-right: 0;
+    }
     
+    .item-list .col-md-4{
+        
+    }
     /* chairs start  */
     .chairs {
         margin-bottom: 5%;
-        height: 200px;
+        height: auto;
         background-color: rgb(243,243,243);
         padding-top: 4%;
         margin-bottom: 5%;
@@ -901,9 +1030,6 @@ body .list-group-item a {
     html {
         width: 100%;
     }
-    .container {
-        min-width: 720px;
-    }
     #header .col-sm-2 {
         padding-right: 0;
     }
@@ -1024,6 +1150,36 @@ body .list-group-item a {
         padding-left: 0;
         line-height: 2.5;
     }
+    #header .interaction .basket .btn {
+        line-height: 3;
+    }
+    #header .interaction .list-group-item {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    #header .interaction .list-group-item {
+        line-height: 3;
+    }
+    #header .col-sm-4:last-child {
+        padding-right: 0;
+    }
+    #header .col-sm-4:last-child a {
+        margin: 0 auto;
+    }
+    #header .col-sm-4:last-child ul {
+        width: 70%;
+        margin: 0 auto;
+        margin-right: 0;
+    }
+    .text-md-right {
+        text-align: center!important;
+    }
+    .modal-content {
+        width: 19rem;
+        position: absolute;
+        top: 3rem;
+        right: 1.2rem;
+    }
 
     .interaction ul{
         display: flex;
@@ -1054,12 +1210,7 @@ body .list-group-item a {
 
 
 @media (min-width: 992px) and (max-width :1199px) { 
-    html {
-        width: 1500px;
-    }
-    body {
-        width: 1500px;
-    }
+    
     #header img {
         width: 100%;
     }
@@ -1114,7 +1265,7 @@ body .list-group-item a {
         padding: 0.5rem 0.3rem;
     }
     #header .col-sm-4 .list-group{
-        padding-right: 15px;
+        padding-right: 0;
         line-height: 5.5;
     }
     #logo {
@@ -1140,6 +1291,17 @@ body .list-group-item a {
     .nav-link {
         color: rgb(59,59,59);
         font-size: 1.3rem;
+    }
+    #header .interaction .basket .btn {
+        line-height: 3;
+    }
+    #header .col-sm-4:last-child .plr{
+        padding: 0 5px;
+    }
+    .modal-content {
+        width: 19rem;
+        right: 0;
+        top: 3rem;
     }
     /* chairs start  */
     .chairs .nav-link {
@@ -1179,6 +1341,17 @@ body .list-group-item a {
     }
     #header .col-sm-10 ul.nav.nav-tabs {
         margin-left: 10%;
+    }
+    #header .col-sm-4 a:last-child {
+        letter-spacing: 0px;
+        font-size: 1rem;
+    }
+    #header .col-sm-4:last-child a:last-child {
+        padding: 0.5rem 0rem;
+    }
+    #header .interaction .list-group-item {
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     /* slider start  */
@@ -1230,16 +1403,16 @@ body .list-group-item a {
     #header .col-sm-4 .list-group {
         width: 100%;
         line-height: 9;
-        padding-right: 15px;
+        padding-right: 0;
     }
     #header .col-sm-4 .list-group a {
         padding-left: 10px;
         padding-right: 10px;
         text-decoration: none;
-    color: rgb(59,59,59);
-    letter-spacing: 2px;
-    font-size: 0.2rem;
-    padding: 0.5rem 0.3rem;
+        color: rgb(59,59,59);
+        letter-spacing: 2px;
+        font-size: 0.2rem;
+        padding: 0.5rem 0.3rem;
     }
     #header .col-sm-4:last-child a i {
         font-size: 1.3rem;
