@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+body section img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+}
+.content {
+    padding: 23rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+body section .content h3 {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+.content p {
+    color: white;
+    font-weight: 300;
+}
+.content ul .list-group-item:first-child {
+    margin-right: 1rem;
+    line-height: 2.3;
+    height: 3rem;
+    padding: 5px 25px;
+    border-radius: 0;
+    width: 11rem;
+}
+.content ul .list-group-item:first-child a{
+    text-decoration: none;
+    color: rgb(84,84,84);
+}
+.content ul .list-group-item:last-child {
+    padding: 0;
+    background: rgba(255,255,255,0);
+    border: none;
+    display: flex;
+    position: relative;
+}
+.content ul .list-group-item:last-child input {
+    background: rgba(255,255,255,0.3);
+    height: 3rem;
+    border-radius: 0;
+    border-color: white;
+    width: 24rem;
+}
+.content ul .list-group-item:last-child i {
+    position: absolute;
+    right: 8%;
+    top: 32%;
+    color: white;
+}
+.content p {
+    margin-bottom: 3rem;
+}
+.content-right h1 {
+    font-size: 15rem;
+    color: white;
+    line-height: 0.79;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+
+@media (max-width: 1199px) {
+    .content {
+        display: block;
+        padding: 15rem 5rem;
+    }
+    .content-left {
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .content ul .list-group-item:first-child{
+        margin-bottom: 2rem;
+    }
+    .content ul .list-group-item:last-child{
+        width: 15rem;
+    }
+    .content-right h1 {
+        font-size: 9rem;
+    }
+    .content {
+        padding: 15rem 1rem;
+    }
+}
