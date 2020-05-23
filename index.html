@@ -18,6 +18,35 @@
     
 </head>
 <body>
+<!-- Modal -->
+<div id="popup">
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h4>JOIN OUR NEWSLETTER</h4>
+          <p>Subscribe now to get 15% off on any product!</p>
+          <input class="enter-email" placeholder="Enter your e-mail"></input>
+          <button class="subscribe" type="button" >SUBSCRIBE</button>
+          <img src="images/chair.png" alt="">
+          <img src="images/newsletter.png" alt="">
+          
+        </div>
+        <div class="modal-footer">
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Don’t show this popup again</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
  
     <!-- header start -->
     <div id="header-top" class="d-lg-block d-md-block d-sm-block d-none">
@@ -65,9 +94,12 @@
                   </div>
               </div>
               <div class="col-lg-3 col-md-4 col-sm-5 col-7 order-lg-3 order-md-3 order-sm-3 order-2 d-flex justify-content-md-end justify-content-sm-end justify-content-lg-center">
-                <div class="search d-flex justify-content-between">
+                <div class="search d-flex justify-content-between interaction">
                     <i class=" fas fa-search"></i>
-                    <i class="fas fa-shopping-bag icon_shopping"></i>
+                    <!-- <a class="nav-link text-md-right text-center position-relative cart btn btn-primary" data-toggle="modal" data-target="#exampleModal" href="#"> -->
+                      <i class="fas fa-shopping-bag icon_shopping" class="nav-link text-md-right text-center position-relative cart btn btn-primary" data-toggle="modal" data-target="#exampleModal" href="#"></i>
+                    <!-- </a> -->
+                    
                 </div>
                 <div class="shopping">
                   <ul class="list-group shopping-cart ">
@@ -130,6 +162,91 @@
       
   </div>
   <!-- header end -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div id="triangle-right"></div>
+            <ul class="list-group item-list">
+              <li class="list-group-item">
+                <div class="card mb-3" >
+                  <div class="row no-gutters">
+                    <div class="col-md-4 col-sm-4">
+                      <img src="https://placeimg.com/74/74/any" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8 col-sm-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Marvelous Modern 3 Seater</h6>
+                        <h6 class="card-text">
+                          <i class="fas fa-euro-sign"></i> 
+                          <p>599,00 </p>  
+                          <i class="fas fa-times"></i>
+                        </h6>
+                        <h6>Qty: 1</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="card mb-3" >
+                  <div class="row no-gutters">
+                    <div class="col-md-4 col-sm-4">
+                      <img src="https://placeimg.com/74/74/any" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8 col-sm-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Marvelous Modern 3 Seater</h6>
+                        <h6 class="card-text">
+                          <i class="fas fa-euro-sign"></i> 
+                          <p>599,00 </p>  
+                          <i class="fas fa-times"></i>
+                        </h6>
+                        <h6>Qty: 1</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="card mb-3" >
+                  <div class="row no-gutters">
+                    <div class="col-md-4 col-sm-4">
+                      <img src="https://placeimg.com/74/74/any" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8 col-sm-8">
+                      <div class="card-body">
+                        <h6 class="card-title">Marvelous Modern 3 Seater</h6>
+                        <h6 class="card-text">
+                          <i class="fas fa-euro-sign"></i> 
+                          <p>599,00 </p>  
+                          <i class="fas fa-times"></i>
+                        </h6>
+                        <h6>Qty: 1</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="list-group-item price">
+                <div class="d-flex">
+                  <p>Sub Total</p>
+                  <p><i class="fas fa-euro-sign dollor"></i></p>
+                  <p>799,00</p>
+                </div>
+                
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer d-flex justify-content-between">
+            <a type="button" class="btn btn-outline-dark" href="shopping-cart.html">VIEW CART</a>
+            <a type="button" class="btn btn-outline-dark" href="checkout.html">CHECKOUT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal  -->
 
   
   <section class="sales-a">
@@ -686,6 +803,12 @@
       
     </div>
   </div>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#myModal').modal('show');
+    });
+  </script>
 
 
   
