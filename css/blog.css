@@ -441,7 +441,11 @@ body .list-group-item a {
     padding-top: 5%;
 }
 
-
+.sidebar_content .card-body a,
+.sidebar_content .popular-post a{
+    text-decoration: none;
+    color: rgb(185,185,185);
+}
 .sidebar_content .card-body h5 {
     letter-spacing: 2px;
     color: rgb(73,73,73);
