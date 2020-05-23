@@ -425,6 +425,14 @@
 
   <script type="text/javascript">
     $(document).ready(function(){
+      $('.fa-times').on('click',function(){
+        $(this).parents('.list-group-item').remove();
+      });
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
       $('#myModal').modal('show');
     });
   </script>
