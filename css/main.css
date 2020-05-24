@@ -433,7 +433,7 @@ body .list-group-item a {
 }
 
 #header .fas.fa-search {
-    line-height: 4;
+    line-height: 2.8;
  }
 
 
@@ -493,6 +493,11 @@ body .list-group-item a {
     left: 23%;
     line-height: 3;
     font-size: 21px;
+}
+#header .interaction a {
+    color: black;
+    font-size: 1.5rem;
+    height: 4rem;
 }
 
 
@@ -1791,7 +1796,7 @@ body .list-group-item a {
         flex-direction: column;
     }
     #header .fas.fa-search {
-        line-height: 4.5;
+        line-height: 2.8;
         padding-left: 0%;
     }
     
@@ -1983,7 +1988,7 @@ body .list-group-item a {
 
 @media (min-width: 1200px) { 
     #header .fas.fa-search {
-        line-height: 4.5;
+        line-height: 3;
         padding-left: 0%;
     }
     #header #logo {
