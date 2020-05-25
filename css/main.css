@@ -589,6 +589,25 @@ body .list-group-item a {
     margin-top: 10px;
 }
 
+/* .sales-a and .sales-b display  */
+
+.sales-a,
+.sales-b {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .sales-a and .sales-b display  */
+
 /* sales-a  */
 .sales-a .card.text-white-a, 
 .sales-a .card.text-white-b,
