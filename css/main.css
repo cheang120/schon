@@ -145,6 +145,10 @@
     border-color: white;
     margin-top: 2%;
 }
+#header .fas.fa-search {
+    line-height: 2.8;
+    font-size: 1.5rem;
+}
 #header .interaction i {
     cursor: pointer;
 }
@@ -589,24 +593,51 @@ body .list-group-item a {
     margin-top: 10px;
 }
 
-/* .sales-a and .sales-b display  */
+/* search start  */
 
-.sales-a,
-.sales-b {
-    display: none;
+.modal .modal-content.searchpage{
+    width: 96%;
+    position: absolute;
+    top: 5rem;
+    left: 2%;
+    height: 50rem;
+    border: none; 
+    border-radius: 0; 
+    cursor: default;
+}
+.modal .searchpage .search {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20rem;
+    height: 3rem;
+}
+.modal .search input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+}
+.modal .search a {
+    position: absolute;
+    color: gray;
+    right: 3rem;
+    top: 21%;
+}
+.modal .search a:last-child {
+    right: 1rem;
+}
+.modal .modal-content.searchpage button {
+    width: 2rem;
+    height: 2rem;
+    margin: 10rem auto 0 auto;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    color: gray;
 }
 
 
-
-
-
-
-
-
-
-
-
-/* .sales-a and .sales-b display  */
+/* search end  */
 
 /* sales-a  */
 .sales-a .card.text-white-a, 
@@ -2120,10 +2151,7 @@ body .list-group-item a {
 
 
 @media (min-width: 1200px) { 
-    #header .fas.fa-search {
-        line-height: 3;
-        padding-left: 0%;
-    }
+
     #header #logo {
         line-height: 4.5;
     }
