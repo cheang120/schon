@@ -1253,7 +1253,7 @@ body .list-group-item a {
         top: 3rem;
         right: 3rem;
     }
-    
+    /* .dropdown-menu start  */
     #header .navbar .nav .dropdown-menu {
         left: 8rem;
         width: 37rem;
@@ -1268,6 +1268,10 @@ body .list-group-item a {
     #header .dropdown-menu ul li:not(:first-child) a {
         font-size: 12px;
     }
+
+    /* .dropdown-menu end  */
+
+    
     /* header end  */
 
     /* blog-list start  */
