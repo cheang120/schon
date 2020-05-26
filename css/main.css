@@ -180,7 +180,7 @@
     width: 24%;
     position: absolute;
     top: 5rem;
-    right: 17.5%;
+    right: 16%;
 }
 
 .modal-dialog {
@@ -635,7 +635,9 @@ body .list-group-item a {
     border-radius: 1rem;
     color: gray;
 }
-
+.modal .modal-content.searchpage input::-webkit-search-cancel-button {
+    display: none;
+    }
 
 /* search end  */
 
