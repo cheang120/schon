@@ -842,7 +842,11 @@ body .list-group-item a {
     font-size: 17px;
 }
 
-
+.sales-b .col-12:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .sales-b .shop-now-white{
     right: 8%;
@@ -2090,9 +2094,7 @@ body .list-group-item a {
     .sales-b .col-sm-12:first-child .card {
         margin-bottom: 8%;
     }
-    .sales-b .col-sm-12:last-child .card-img{
-        height: 33rem;
-    }
+   
 
 
     .best-seller .col-sm:last-child .list-group-item:nth-child(2n+1) {
