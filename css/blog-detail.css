@@ -375,7 +375,66 @@ body .list-group-item a {
     color: rgb(123,123,123);
 }
 
+
 /* dropdown  */
+
+#header .fas.fa-search {
+    line-height: 5.8;
+    padding-left: 0;
+    font-size: 1.3rem;
+ }
+
+.interaction li:nth-child(2){
+    margin: 0;
+}
+/* search start  */
+
+.modal .modal-content.searchpage{
+    width: 96%;
+    position: absolute;
+    top: 5rem;
+    left: 2%;
+    height: 50rem;
+    border: none; 
+    border-radius: 0; 
+    cursor: default;
+}
+.modal .searchpage .search {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20rem;
+    height: 3rem;
+}
+.modal .search input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+}
+.modal .search a {
+    position: absolute;
+    color: gray;
+    right: 3rem;
+    top: 21%;
+}
+.modal .search a:last-child {
+    right: 1rem;
+}
+.modal .modal-content.searchpage button {
+    width: 2rem;
+    height: 2rem;
+    margin: 10rem auto 0 auto;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    color: gray;
+}
+.modal .modal-content.searchpage input::-webkit-search-cancel-button {
+    display: none;
+    }
+
+/* search end  */
+
 /* header end  */
 
 
@@ -1099,6 +1158,16 @@ body .list-group-item a {
     }
 
     /* .dropdown-menu end  */
+
+
+    .interaction {
+        justify-content: center!important;
+    }
+    #header .fas.fa-search {
+        line-height: 1.8;
+        padding-left: 0;
+        font-size: 1.1rem;
+    }
     /* header end  */
     
     /* blog-list start  */
@@ -1415,6 +1484,11 @@ body .list-group-item a {
     }
 
     /* .dropdown-menu end  */
+    #header .fas.fa-search {
+        line-height: 3.8;
+    }
+
+
     /* header end  */
 
     /* blog-list start  */
@@ -1564,11 +1638,12 @@ body .list-group-item a {
     #header img {
         width: 100%;
     }
-    .nav-tabs{
+    .nav-tabs {
         border-bottom: none;
         padding: 10px 25px 10px;
         margin-left: 0;
         padding-right: 0;
+        padding-left: 0;
     }
     #header .col-sm-7 {
         padding: 0;
@@ -1597,7 +1672,7 @@ body .list-group-item a {
     #header .col-sm-4:last-child a i{
         font-size: 1.2rem;
         line-height: 3.5;
-    
+        color: black;
     }
     #header .col-sm-4:last-child .plr {
         padding: 0 ;
@@ -1610,12 +1685,12 @@ body .list-group-item a {
         display: inline-block;
         padding-left: 2%;
     }
-    #header .col-sm-4 a:last-child {
+    #header .col-sm-4:first-child a {
         text-decoration: none;
         color: rgb(59,59,59);
-        letter-spacing: 2px;
-        font-size: 1.2rem;
-        padding: 0.5rem 0.1rem;
+        letter-spacing: 1px;
+        font-size: 0.2rem;
+        padding: 0.5rem 0.3rem;
     }
     #header .col-sm-4 .tel a {
         letter-spacing: 1px;
@@ -1636,6 +1711,7 @@ body .list-group-item a {
     }
     #header .col-lg-7 {
         padding-right: 0;
+        padding-left: 0;
     }
     .navbar-expand-lg .navbar-collapse {
         flex: initial;
@@ -1668,6 +1744,11 @@ body .list-group-item a {
     }
 
     /* .dropdown-menu end  */
+    #header .fas.fa-search {
+        line-height: 4.1;
+        padding-left: 0;
+        font-size: 1.3rem;
+    }
     /* header end  */
 
     
