@@ -943,7 +943,7 @@ body .list-group-item a {
 }
 
 
-
+/* features end  */
 .features .container .row .col-sm-3 h6 {
     padding-left: 1.25rem;
     margin-bottom: 0;
@@ -991,6 +991,21 @@ body .list-group-item a {
      width: 100%;
      margin-bottom: 70px;
  }
+
+
+
+.features .col-sm-3 {
+    width: 290px;
+    padding: 0;
+}
+.features .col-sm-3 .card img {
+    width: 275px;
+    height: 275px;
+}
+
+
+
+ /* features end  */
 
  /* lastest  */
 
@@ -1070,6 +1085,11 @@ body .list-group-item a {
     color: #757575;
     font-weight: 600;
     font-size: 16px;
+}
+.best-seller .col-sm-4 {
+    display: inline-block;
+    width: 213px;
+    padding-left: 0;
 }
 .best-seller .col-sm-4 .card{
     cursor: pointer;
