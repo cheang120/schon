@@ -825,6 +825,16 @@
       });
     });
   </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("option").change(function(){
+        var n = $(this).val();
+        var p = $(this).parents("td").siblings("p").html(); 
+        p = p.substr(1);
+        $(this).parents("td").siblings("p").html((p * n).toFixed(2));
+      });
+    });
+  </script>
 
   
 </body>
